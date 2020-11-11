@@ -115,7 +115,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap text-center">
-                                <h2>About</h2>
+                                <h2>About GrowVenture</h2>
                             </div>
                         </div>
                     </div>
@@ -135,9 +135,54 @@
                     </div>
                     <div class="col-xl-5 col-lg-5">
                         <div class="trusted-caption">
-                            <h2>We are more trusted then 5000 clients</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru dolor sit amet, consectetur adipn.</p>
-                            <a href="#" class="btn trusted-btn">Learn More</a>
+                            <h2 class="text-info">Overview</h2>
+                            <p>
+                            <h3>General Services of GrowVenture</h3>
+                                <ol>
+                                    <li>Lend entrepreneurs and other people money to help them to grow their business.</li>
+                                    <li>Business Planning </li>
+                                    <li>Financial Projections</li>
+                                    <li>Strategic Planning</li>
+                                    <li>Audit & Assurance</li>
+                                    <li>Digital Solutions</li>
+                                </ol>
+                                <h3>Objectifs</h3>
+                                <p>Help people with strategies, plans, money, ...who don't know how to grow their business.</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              
+                <hr>
+                <div class="row d-flex align-items-end justify-content-center">
+                    <div class="col-xl-9 col-lg-9">
+                        <div class="trusted-caption">
+                            <h2 class="text-info">Characteristics</h2>
+                            <p>
+                            <h3>What we do</h3>
+                                <p>
+                                    GrowVenture alleviates poverty by helping entrepreneurs build their businesses. <br> 
+                                    GrowVenture alleviates poverty by helping entrepreneurs build their businesses. 
+                                    By skype, phone, and email, our team mentor entrepreneurs and transfer business skills.
+                                    This enables the entrepreneurs to run their businesses more effectively, increasing profitability and 
+                                    creating jobs in their communities. <br>
+                                    Our team is global business professionals with skills in marketing, finance, strategy and 
+                                    business development who offer 12 consultancy sessions for free. 
+                                </p>
+                            </p>
+                            <h3>Why we do it</h3>
+                                <p>
+                                Micro, small and medium businesses represent the backbone of local economies in many 
+                                developing countries. These businesses are vehicles for accelerating economic growth,
+                                generating employment, foreign exchange and tax revenues. <br>
+                                These small enterprises face unique challenges which can limit their full potential. 
+                                Many businesses work with limited strategy and planning, minimal accounting and financial 
+                                records, limited customer care, and a short term outlook and vision. By connecting volunteer 
+                                consultants with entrepreneurs, we can accelerate the economic performance of these businesses. 
+                                Blending the business expertise of our volunteer consultants with the local knowledge of our 
+                                entrepreneurs enables these businesses to grow and develop.                    
+                                </p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -146,107 +191,8 @@
         <!-- We Trusted End-->
 
         <!-- Team-profile Start -->
-        <div class="team-profile team-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-profile mb-30">
-                            <!-- Front -->
-                            <div class="single-profile-front">
-                                <div class="profile-img">
-                                    <img src="views/assets/img/team/team_1.jpg" alt="">
-                                </div>
-                                <div class="profile-caption">
-                                    <h4><a href="#">Business Planning</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-profile mb-30">
-                            <!-- Front -->
-                            <div class="single-profile-front">
-                                <div class="profile-img">
-                                    <img src="views/assets/img/team/team_2.jpg" alt="">
-                                </div>
-                                <div class="profile-caption">
-                                    <h4><a href="#">Financial Projections</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-profile mb-30">
-                            <!-- Back -->
-                            <div class="single-profile-back-last">
-                                <h2>What we do for you</h2>
-                                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore smod tem magna aliqua. Ut enim.</p>
-                                <a href="#">View profile »</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team-profile End-->
-
-        <!-- Testimonial Start -->
-        <div class="testimonial-area">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-9 col-lg-9 col-md-9">
-                        <div class="h1-testimonial-active">
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial pt-65">
-                                <!-- Testimonial tittle -->
-                                <div class="testimonial-icon mb-45">
-                                    <img src="views/assets/img/logo/testimonial.png" class="ani-btn " alt="">
-                                </div>
-                                <!-- Testimonial Content -->
-                                <div class="testimonial-caption text-center">
-                                    <p>You can’t succeed if you just do what others do and follow the well-worn path. You need to create a new and original path for yourself. </p>
-                                    <!-- Rattion -->
-                                    <div class="testimonial-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="rattiong-caption">
-                                        <span>Clifford Frazier<span> - Colorlib Themes</span> </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Testimonial -->
-                            <div class="single-testimonial pt-65">
-                                <!-- Testimonial tittle -->
-                                <div class="testimonial-icon mb-45">
-                                    <img src="views/assets/img/logo/testimonial.png" class="ani-btn" alt="">
-                                </div>
-                                <!-- Testimonial Content -->
-                                <div class="testimonial-caption text-center">
-                                    <p>You can’t succeed if you just do what others do and follow the well-worn path. You need to create a new and original path for yourself. </p>
-                                    <!-- Rattion -->
-                                    <div class="testimonial-ratting">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                    <div class="rattiong-caption">
-                                        <span>Clifford Frazier<span> - Colorlib Themes</span> </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+  
         <!-- Testimonial End -->
 
         <!-- Recent Area Start -->
