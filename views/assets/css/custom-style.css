@@ -1,3 +1,7 @@
 button:hover {
     color: #fff;
 }
+
+#character {
+    text-align: justify;
+}

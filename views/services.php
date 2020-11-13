@@ -288,21 +288,22 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-box  mb-30">
-                                            <input type="text" name="name" placeholder="Name">
+                                            <input type="text" name="name" placeholder="Name" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="form-box mb-30">
-                                            <input type="text" name="email" placeholder="Phone">
+                                            <input type="text" name="email" placeholder="Phone" autocomplete="off">
                                         </div>
                                     </div>
                                     <div class="col-lg-8 col-md-8 mb-30">
                                         <div class="select-itms">
                                             <select name="select" id="select1">
-                                                <option value="">Services</option>
-                                                <option value="">Services-1</option>
-                                                <option value="">Services-2</option>
-                                                <option value="">Services-3</option>
+                                                <option value="">Business Planning</option>
+                                                <option value="">Financial Projections</option>
+                                                <option value="">Strategic Planning</option>
+                                                <option value="">Audit & Assurance</option>
+                                                <option value="">Digital Solutions</option>
                                             </select>
                                         </div>
                                     </div>

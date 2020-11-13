@@ -12,4 +12,5 @@
 <link rel="stylesheet" href="views/assets/css/slick.css">
 <link rel="stylesheet" href="views/assets/css/nice-select.css">
 <link rel="stylesheet" href="views/assets/css/style.css">
+<link rel="stylesheet" href="views/assets/css/fontawesome/css/all.css">
 <link rel="stylesheet" href="views/assets/css/custom-style.css">

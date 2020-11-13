@@ -44,11 +44,12 @@
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="#">Commercial Cleaning</a></li>
-                                    <li><a href="#">Office Cleaning</a></li>
-                                    <li><a href="#">Building Cleaning</a></li>
-                                    <li><a href="#">Floor Cleaning</a></li>
-                                    <li><a href="#">Apartment Cleaning</a></li>
+                                    <li><a href="#">Lend money</a></li>
+                                    <li><a href="#">Business Planning</a></li>
+                                    <li><a href="#">Financial Projections</a></li>
+                                    <li><a href="#">Strategic Planning</a></li>
+                                    <li><a href="#">Audit & Assurance</a></li>
+                                    <li><a href="#">Digital Solutions</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -58,7 +59,7 @@
                             <div class="footer-tittle">
                                 <h4>Get in Touch</h4>
                                 <ul>
-                                    <li><a href="#">152-515-6565</a></li>
+                                    <li><a href="#">+243 998 435 328, <br>+243 812 287 927</a></li>
                                     <li><a href="#"> growventure2@gmail.com</a></li>
                                     <li><a href="#">Goma, Nord-Kivu, RDC</a></li>
                                 </ul>

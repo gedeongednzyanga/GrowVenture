@@ -146,7 +146,7 @@
                             </div>
                             <div class="col-12 ">
                                 <div class="form-group ">
-                                    <input class="form-control " name="subject " id="subject " type="text " onfocus="this.placeholder='' " onblur="this.placeholder='Enter Subject' " placeholder="Enter Subject ">
+                                    <input class="form-control " name="subject " id="subject " autocomplete="off" type="password" onfocus="this.placeholder='' " onblur="this.placeholder='Enter Subject' " placeholder="Password ">
                                 </div>
                             </div>
                         </div>

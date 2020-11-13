@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <?php include('header.php') ?>
+    <?php include('header.php') ;?>
 </head>
 
 <body>
@@ -139,12 +139,12 @@
                             <p>
                             <h3>General Services of GrowVenture</h3>
                                 <ol>
-                                    <li>Lend entrepreneurs and other people money to help them to grow their business.</li>
-                                    <li>Business Planning </li>
-                                    <li>Financial Projections</li>
-                                    <li>Strategic Planning</li>
-                                    <li>Audit & Assurance</li>
-                                    <li>Digital Solutions</li>
+                                    <li> 1. Lend entrepreneurs and other people money to help them to grow their business.</li>
+                                    <li> 2. Business Planning </li>
+                                    <li> 3. Financial Projections</li>
+                                    <li> 4. Strategic Planning</li>
+                                    <li> 5. Audit & Assurance</li>
+                                    <li> 6. Digital Solutions</li>
                                 </ol>
                                 <h3>Objectifs</h3>
                                 <p>Help people with strategies, plans, money, ...who don't know how to grow their business.</p>
@@ -152,7 +152,6 @@
                         </div>
                     </div>
                 </div>
-              
                 <hr>
                 <div class="row d-flex align-items-end justify-content-center">
                     <div class="col-xl-9 col-lg-9">
@@ -160,9 +159,9 @@
                             <h2 class="text-info">Characteristics</h2>
                             <p>
                             <h3>What we do</h3>
-                                <p>
-                                    GrowVenture alleviates poverty by helping entrepreneurs build their businesses. <br> 
-                                    GrowVenture alleviates poverty by helping entrepreneurs build their businesses. 
+                                <p id="character">
+                                    <em>GrowVenture </em>alleviates poverty by helping entrepreneurs build their businesses. <br> 
+                                    <em>GrowVenture</em> alleviates poverty by helping entrepreneurs build their businesses. 
                                     By skype, phone, and email, our team mentor entrepreneurs and transfer business skills.
                                     This enables the entrepreneurs to run their businesses more effectively, increasing profitability and 
                                     creating jobs in their communities. <br>
@@ -171,7 +170,7 @@
                                 </p>
                             </p>
                             <h3>Why we do it</h3>
-                                <p>
+                                <p id="character"> 
                                 Micro, small and medium businesses represent the backbone of local economies in many 
                                 developing countries. These businesses are vehicles for accelerating economic growth,
                                 generating employment, foreign exchange and tax revenues. <br>
@@ -188,64 +187,7 @@
                 </div>
             </div>
         </div>
-        <!-- We Trusted End-->
-
-        <!-- Team-profile Start -->
-        
-  
-        <!-- Testimonial End -->
-
-        <!-- Recent Area Start -->
-        <div class="recent-area section-paddingt">
-            <div class="container">
-                <!-- section tittle -->
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-tittle text-center">
-                            <h2>Our Recent News</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_1.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="#">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_2.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Audit</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_3.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <!-- Recent Area End-->
 
         <!-- Request Back Start -->
@@ -276,10 +218,11 @@
                                     <div class="col-lg-8 col-md-8 mb-30">
                                         <div class="select-itms">
                                             <select name="select" id="select1">
-                                                <option value="">Services</option>
-                                                <option value="">Services-1</option>
-                                                <option value="">Services-2</option>
-                                                <option value="">Services-3</option>
+                                                <option value="">Business Planning</option>
+                                                <option value="">Financial Projections</option>
+                                                <option value="">Strategic Planning</option>
+                                                <option value="">Audit & Assurance</option>
+                                                <option value="">Digital Solutions</option>
                                             </select>
                                         </div>
                                     </div>
@@ -297,7 +240,7 @@
         <!-- Request Back End -->
 
     </main>
-    <?php include('footer.php') ?>
+    <?php include("footer.php") ?>
 
 </body>
 
