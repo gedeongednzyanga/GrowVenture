@@ -79,7 +79,7 @@
                                             <li><a href="login">Connexion</a>
                                                 <ul class="submenu">
                                                     <li><a href="login">Login</a></li>
-                                                    <li><a href="#">Logout</a></li>
+                                                    <li><a href="#">Create Acount</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="about">About</a></li>
