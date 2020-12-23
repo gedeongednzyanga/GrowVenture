@@ -4,11 +4,12 @@
         private $nom;
         private $mail;
         private $password;
+        private $role;
 
         public function __construct(array $data){
             $this->hydrate($data);
         }
-
+        
         public function hydrate(array $data){
            foreach ($data as $key => $value) {
                $method = 'set'.ucfirst($key);
@@ -78,8 +79,10 @@
                 return $this;
         }
 
+      
+
         /**
-         * Get the value of password
+         * Get the value of passwordu
          */ 
         public function getPassword()
         {
@@ -87,13 +90,33 @@
         }
 
         /**
-         * Set the value of password
+         * Set the value of passwordu
          *
          * @return  self
          */ 
-        public function setPassword($password)
+        public function setPassword($passwordu)
         {
-                $this->password = $password;
+                $this->password = $passwordu;
+
+                return $this;
+        }
+
+        /**
+         * Get the value of role
+         */ 
+        public function getRole()
+        {
+                return $this->role;
+        }
+
+        /**
+         * Set the value of role
+         *
+         * @return  self
+         */ 
+        public function setRole($role)
+        {
+                $this->role = $role;
 
                 return $this;
         }

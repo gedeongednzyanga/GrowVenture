@@ -5,8 +5,10 @@
             return $this->getAll('user', 'User');
         }
 
-        public function createObject($procedure, $obj){
-            $query = self::$bdd->prepare('CALL '.$procedure. '('. $obj->getId(), $obj->getNom(), $obj->getMail(), $obj->getPassword().')');
-            $query->execute();
+        public function createObject($action, $procedure, $obj){
+            $query = self::getBdd()->prepare("CALL ".$procedure." (?,?,?,?,?,?)");
+            $query->execute(array($action, $obj->getId(), $obj->getNom(), $obj->getMail(), $obj->getPassword(), $obj->getRole()));
         }
     }
+
+    

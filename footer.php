@@ -130,3 +130,4 @@
     <script src="views/assets/js/plugins.js"></script>
     <script src="views/assets/js/main.js"></script>
     <script src="views/assets/js/custom-js.js"></script>
+   
