@@ -6,7 +6,7 @@
         }
 
         public function createObject($action, $procedure, $obj){
-            $query = self::getBdd()->prepare("CALL ".$procedure." (?,?,?,?,?,?)");
+            $query = $this->getBdd()->prepare("CALL ".$procedure." (?,?,?,?,?,?)");
             $query->execute(array($action, $obj->getId(), $obj->getNom(), $obj->getMail(), $obj->getPassword(), $obj->getRole()));
         }
     }

@@ -7,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <title>Growventure | Dashboard</title>
-
+    <link rel="shortcut icon" type="image/x-icon" href="views/assets/img/favicon.ico">
     <link rel="stylesheet" href="views/assets/css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="views/assets/admin/overlayScrollbars/css/OverlayScrollbars.min.css" />
     <link rel="stylesheet" href="views/assets/admin/dist/css/adminlte.min.css" />
@@ -15,6 +15,7 @@
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
+    
     <div class="wrapper">
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -24,7 +25,7 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="home" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link">Contact</a>
@@ -196,7 +197,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="pages/widgets.html" class="nav-link">
+                            <a href="news" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
                                     News

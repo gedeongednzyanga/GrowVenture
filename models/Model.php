@@ -15,7 +15,7 @@
 
         protected function getAll($procedure, $obj){
             $var = [];
-            $query = self::getBdd()->prepare('CALL '.$procedure);
+            $query = $this->getBdd()->prepare('CALL '.$procedure);
             $query->execute();
             while ($data = $query->fetch(PDO::FETCH_ASSOC)) {
                 $var = new $obj($data);
