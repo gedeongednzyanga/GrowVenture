@@ -70,6 +70,7 @@
                                             <li><a href="home">Home</a></li>
                                             <li><a href="services">Services</a></li>
                                             <li><a href="cases">Cases</a></li>
+                                            <li><a href="administration">Admin</a></li>
                                             <li><a href="blog">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog">Blog</a></li>
