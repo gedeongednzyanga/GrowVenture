@@ -1,6 +1,8 @@
 $(function() {
     $('.more-services').hide();
     $('.message-success').hide();
+    $('.message-danger').hide();
+
     $('#more-service').click(function() {
         $(this).hide();
         $('.more-services').show('slow');
@@ -8,28 +10,37 @@ $(function() {
 
     //Save User
     $("#btn-create").click(function(e) {
+        $('.message-success').hide();
+        $('.message-danger').hide();
         nom = $('#name').val();
         mail = $('#email').val();
         password = $('#password').val();
+        confirmpass = $('#confirmpass').val();
         action = $(this).val();
         id = 0;
         role = 0;
-        if (nom != "" || mail != "") {
-            $.ajax({
-                url: "controllers/controllerQuery/UserQuery.php",
-                type: "POST",
-                data: { id: id, nom: nom, mail: mail, password: password, role: role, action: action },
-                timeout: 3000,
-                success: function(data) {
-                    alert(data);
-                    $('.message-success').show('slow');
-                },
-                error: function() {
-                    alert('Echec de la requete.');
-                }
-            });
+        if (nom != "" || mail != "" || password != "" || confirmpass != "") {
+            if (password != confirmpass) {
+                $('.message-danger').text("Mot de passe incorrect.").show('slow');
+                $('#confirmpass').focus();
+            } else {
+                $.ajax({
+                    url: "controllers/controllerQuery/UserQuery.php",
+                    type: "POST",
+                    data: { id: id, nom: nom, mail: mail, password: password, role: role, action: action },
+                    timeout: 3000,
+                    success: function(data) {
+                        $('.message-success').text(data).show('slow');
+                        $('.message-danger').hide();
+                    },
+                    error: function() {
+                        $('.message-danger').text("Echec de la requete.").show('slow');
+                    }
+                });
+            }
         } else {
-            alert("Champs vides.");
+            $('.message-success').hide();
+            $('.message-danger').text("Complètez tous les champs.").show('slow');
         }
     });
 });

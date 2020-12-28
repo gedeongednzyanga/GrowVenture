@@ -160,6 +160,7 @@
                         </div>
                     </div>
                     <span class="small message-success text-success">Acount has been created successfully.</span>
+                    <span class="small message-danger text-danger"></span>
                 </div>
             </div>
         </div>
