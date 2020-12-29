@@ -2,6 +2,7 @@
     class News
     {
         private $idn;
+        private $title;
         private $content;
         private $image;
         private $datepub;
@@ -136,6 +137,26 @@
         public function setRefuser($refuser)
         {
                 $this->refuser = $refuser;
+
+                return $this;
+        }
+
+        /**
+         * Get the value of title
+         */ 
+        public function getTitle()
+        {
+                return $this->title;
+        }
+
+        /**
+         * Set the value of title
+         *
+         * @return  self
+         */ 
+        public function setTitle($title)
+        {
+                $this->title = $title;
 
                 return $this;
         }

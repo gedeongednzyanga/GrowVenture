@@ -872,34 +872,40 @@
                                             Publish new informations.
                                             <small>GrowVenture</small>
                                         </h3>
-
-                                        <!-- tools box -->
-                                        <div class="card-tools">
-                                            <button type="button" class="btn btn-tool btn-sm" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
-                                                <i class="fas fa-minus"></i></button>
-                                            <button type="button" class="btn btn-tool btn-sm" data-card-widget="remove" data-toggle="tooltip" title="Remove">
-                                    <i class="fas fa-times"></i></button>
-                                        </div>
-                                        <!-- /. tools -->
                                     </div>
                                     <!-- /.card-header -->
                                     <div class="card-body pad">
-                                        <div class="form-group">
-                                            <input type="text" name="" id="" placeholder="Title. Ex : First GrowVenture Hosting" class="form-control">
-                                        </div>
-                                        <div class="mb-3">
-                                            <textarea class="textarea" placeholder="Place some text here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
-                                        </div>
-                                        <p class="text-sm mb-0">
-                                            <div class="form-group">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="customFile">
-                                                    <label class="custom-file-label" for="customFile">Choose file</label>
+                                        <form action="controllers/controllerQuery/NewQuery.php" id="form-new" method="POST" enctype="multipart/form-data">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="title" id="title" placeholder="Title. Ex : First GrowVenture Hosting" class="form-control">
+                                                    </div>
                                                 </div>
-
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <input type="text" name="refcatnew" value="1" id="title" placeholder="Ref. cat Ex : First GrowVenture Hosting" class="form-control">
+                                                        <input type="hidden" name="refuser" value="1" />
+                                                        <input type="hidden" name="id" value="0"/>
+                                                        <input type="hidden" name="action" value="create">
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <button class="btn btn-sm btn-info">Publier</button>
-                                        </p>
+                                            <div class="mb-3">
+                                                <textarea class="textarea" name="content" id="content" placeholder="Place some text here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                            </div>
+                                            <p class="text-sm mb-0">
+                                                <div class="form-group">
+                                                    <div class="custom-file">
+                                                        <input type="file" name="image" accept="image/*" class="custom-file-input" id="customFile">
+                                                        <label class="custom-file-label" for="customFile">Choose file</label>
+                                                    </div>
+                                                </div>
+                                                <button class="btn btn-sm btn-info" type="submit">Publier</button>
+                                                <span class="small message-success text-success"></span>
+                                                <span class="small message-danger text-danger"></span>
+                                            </p>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
@@ -1284,6 +1290,7 @@
             $('.textarea').summernote()
         })
     </script>
+    <script src="views/assets/js/custom-js.js"></script>
 </body>
 
 </html>

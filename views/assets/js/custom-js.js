@@ -43,4 +43,31 @@ $(function() {
             $('.message-danger').text("Complètez tous les champs.").show('slow');
         }
     });
+
+    //Save News
+    $("#form-new").submit(function(e) {
+        e.preventDefault();
+        if ($('#title').val() == "" || $('#content').val() == "") {
+            $('.message-success').hide();
+            $(".message-danger").text("Rien à publier.").show('slow');
+        } else {
+            $.ajax({
+                url: "controllers/controllerQuery/NewQuery.php",
+                type: "POST",
+                data: new FormData(this),
+                contentType: false,
+                cache: false,
+                processData: false,
+                timeout: 3000,
+                success: function(data) {
+                    $('.message-success').text(data).show('slow');
+                    $('.message-danger').hide('slow');
+                },
+                error: function() {
+                    $(".message-danger").text("Echec de la requte.").show('slow');
+                }
+            });
+        }
+    });
+
 });
