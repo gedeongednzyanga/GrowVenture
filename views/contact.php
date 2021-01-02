@@ -413,8 +413,8 @@
                         </div>
                         <div class="form-group mt-3 ">
                             <button type="submit " class="button button-contactForm boxed-btn ">Send</button>
-                            <span class="text-danger" id="error"></span>
-                            <span class="text-success" id="success"></span>
+                            <span class="text-danger small" id="error"></span>
+                            <span class="text-success small" id="success"></span>
                         </div>
                     </form>
                 </div>

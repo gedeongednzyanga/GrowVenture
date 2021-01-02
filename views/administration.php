@@ -56,7 +56,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle" />
+                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle" />
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -74,7 +74,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
+                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -92,7 +92,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
+                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
@@ -411,12 +411,12 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-header">EXAMPLES</li>
+                        <li class="nav-header">MESSAGES & NOTIFICATIONS</li>
                         <li class="nav-item">
                             <a href="pages/calendar.html" class="nav-link">
                                 <i class="nav-icon fas fa-calendar-alt"></i>
                                 <p>
-                                    Calendar
+                                    Comments
                                     <span class="badge badge-info right">2</span>
                                 </p>
                             </a>
@@ -424,7 +424,10 @@
                         <li class="nav-item">
                             <a href="pages/gallery.html" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
-                                <p>Gallery</p>
+                                <p>
+                                    Suggestions
+                                    <span class="badge badge-info right">9</span>
+                                </p>
                             </a>
                         </li>
                         <li class="nav-item has-treeview">
@@ -433,23 +436,24 @@
                                 <p>
                                     Mailbox
                                     <i class="fas fa-angle-left right"></i>
+                                    <span class="badge badge-info right">20</span>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="pages/mailbox/mailbox.html" class="nav-link">
+                                    <a href="inbox" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Inbox</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/mailbox/compose.html" class="nav-link">
+                                    <a href="compose" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Compose</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="pages/mailbox/read-mail.html" class="nav-link">
+                                    <a href="read" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Read</p>
                                     </a>
@@ -1538,7 +1542,7 @@
         <!-- Main Footer -->
         <footer class="main-footer">
             <strong>Copyright &copy; 2020-2021
-        <a href="http://adminlte.io">GrowVenture</a>.</strong> All rights reserved.
+            <a href="http://adminlte.io">GrowVenture</a>.</strong> All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 Gédéon Nzyanga
             </div>
