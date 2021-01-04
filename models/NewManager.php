@@ -1,7 +1,12 @@
 <?php
 class NewManager extends Model{
+
     public function getNews(){
         return $this->getAll('', '');
+    }
+
+    public function getOneNew($id){
+        return $this->getOne("", $id, "New");
     }
 
     public function createObject($action, $procedure, $obj){

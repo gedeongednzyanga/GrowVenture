@@ -9,7 +9,7 @@
             try {
                 //Chargement automatique des classes
                 spl_autoload_register(function($class){
-                    require_once('moles/'.$class.'.php');
+                    require_once('models/'.$class.'.php');
                 });
 
                 $url[] = '';

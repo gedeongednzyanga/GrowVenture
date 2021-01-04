@@ -35,7 +35,7 @@
             //Generation de la view Avec donnees
             public function generate($data){
                 $content = $this->generateFile($this->_file, $data);
-                $view = $this->generateFile('views/template.php', array ('t'=>$this->t, 'content'=>$content));
+                $view = $this->generateFile('views/template.php', array ('t'=>$this->_t, 'content'=>$content));
                 echo $view;
             }
             //Generation de la view sans donnees

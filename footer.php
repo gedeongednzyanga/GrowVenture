@@ -48,8 +48,7 @@
                                     <li><a href="#">Business Planning</a></li>
                                     <li><a href="#">Financial Projections</a></li>
                                     <li><a href="#">Strategic Planning</a></li>
-                                    <li><a href="#">Audit & Assurance</a></li>
-                                    <li><a href="#">Digital Solutions</a></li>
+                                    <li><a href="#">Audit & Assurance</a></li>                                  
                                 </ul>
                             </div>
                         </div>

@@ -346,10 +346,10 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>You can’t succeed if you just do what others do and follow the well-worn path. You need to create a new and original path for yourself. </p>
+                                    <p>Everything you want is out there waiting for you. But you have to take action to get it. </p>
                                     <!-- Rattion -->
                                     <div class="rattiong-caption">
-                                        <span>Gédéon Nzyanga<span>
+                                        <span>Jules Renard<span>
                                     </div>
                                 </div>
                             </div>
@@ -408,59 +408,84 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="views/assets/img/recent/rcent_1.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span>Business planing</span>
+                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
+                                <p>Nov 30, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="views/assets/img/recent/rcent_2.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span>Audit</span>
+                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
+                                <p>Nov 30, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="views/assets/img/recent/rcent_3.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span>Business planing</span>
+                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
+                                <p>Nov 30, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="views/assets/img/recent/rcent_1.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span>Business planing</span>
+                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
+                                <p>Nov 30, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="views/assets/img/recent/rcent_2.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span>Audit</span>
+                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
+                                <p>Nov 30, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-recent-cap mb-30">
+                            <div class="recent-img">
+                                <img src="views/assets/img/recent/rcent_3.png" alt="">
+                            </div>
+                            <div class="recent-cap">
+                                <span>Business planing</span>
+                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
+                                <p>Nov 30, 2020</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Recent Area End-->
-
-        <!-- Request Back Start -->
-        <div class="request-back-area section-padding30">
-            <div class="container">
-                <div class="row d-flex justify-content-between">
-                    <div class="col-xl-4 col-lg-5 col-md-5">
-                        <div class="request-content">
-                            <h3>Request for Call Back</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore,</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-7 col-lg-7 col-md-7">
-                        <!-- Contact form Start -->
-                        <div class="form-wrapper">
-                            <form id="contact-form" action="#" method="POST">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-box  mb-30">
-                                            <input type="text" name="name" placeholder="Name">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="form-box mb-30">
-                                            <input type="text" name="email" placeholder="Phone">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 mb-30">
-                                        <div class="select-itms">
-                                            <select name="select" id="select1">
-                                                <option value="">Business Planning</option>
-                                                <option value="">Financial Projections</option>
-                                                <option value="">Strategic Planning</option>
-                                                <option value="">Audit & Assurance</option>
-                                                <option value="">Digital Solutions</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4">
-                                        <button type="submit" class="send-btn">Send</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- Contact form End -->
-                </div>
-            </div>
-        </div>
-        <!-- Request Back End -->
 
     </main>
     <?php include("footer.php"); ?>

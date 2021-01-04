@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>Growventure | Mailbox</title>
     <link rel="shortcut icon" type="image/x-icon" href="views/assets/img/favicon.ico">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -37,11 +37,12 @@
             <!-- SEARCH FORM -->
             <form class="form-inline ml-3">
                 <div class="input-group input-group-sm">
-                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                        aria-label="Search">
                     <div class="input-group-append">
                         <button class="btn btn-navbar" type="submit">
-              <i class="fas fa-search"></i>
-            </button>
+                            <i class="fas fa-search"></i>
+                        </button>
                     </div>
                 </div>
             </form>
@@ -58,7 +59,8 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -74,7 +76,8 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -90,11 +93,13 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
                                     <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
@@ -146,7 +151,8 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="../../index3.html" class="brand-link">
-                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                    class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
 
@@ -155,7 +161,8 @@
                 <!-- Sidebar user (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2"
+                            alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">Alexander Pierce</a>
@@ -164,7 +171,8 @@
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview">
@@ -721,8 +729,9 @@
                                 <h3 class="card-title">Folders</h3>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                                            class="fas fa-minus"></i>
+                                    </button>
                                 </div>
                             </div>
                             <div class="card-body p-0">
@@ -764,8 +773,9 @@
                                 <h3 class="card-title">Labels</h3>
 
                                 <div class="card-tools">
-                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
+                                    <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                                            class="fas fa-minus"></i>
+                                    </button>
                                 </div>
                             </div>
                             <div class="card-body p-0">
@@ -813,19 +823,26 @@
                             <div class="card-body p-0">
                                 <div class="mailbox-controls">
                                     <!-- Check all button -->
-                                    <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i class="far fa-square"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i
+                                            class="far fa-square"></i></button>
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-default btn-sm"><i class="far fa-trash-alt"></i></button>
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fas fa-reply"></i></button>
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i></button>
+                                        <button type="button" class="btn btn-default btn-sm"><i
+                                                class="far fa-trash-alt"></i></button>
+                                        <button type="button" class="btn btn-default btn-sm"><i
+                                                class="fas fa-reply"></i></button>
+                                        <button type="button" class="btn btn-default btn-sm"><i
+                                                class="fas fa-share"></i></button>
                                     </div>
                                     <!-- /.btn-group -->
-                                    <button type="button" class="btn btn-default btn-sm"><i class="fas fa-sync-alt"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm"><i
+                                            class="fas fa-sync-alt"></i></button>
                                     <div class="float-right">
                                         1-50/200
                                         <div class="btn-group">
-                                            <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-left"></i></button>
-                                            <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-right"></i></button>
+                                            <button type="button" class="btn btn-default btn-sm"><i
+                                                    class="fas fa-chevron-left"></i></button>
+                                            <button type="button" class="btn btn-default btn-sm"><i
+                                                    class="fas fa-chevron-right"></i></button>
                                         </div>
                                         <!-- /.btn-group -->
                                     </div>
@@ -834,6 +851,7 @@
                                 <div class="table-responsive mailbox-messages">
                                     <table class="table table-hover table-striped">
                                         <tbody>
+                                            <?php foreach($messages as $message): ?>
                                             <tr>
                                                 <td>
                                                     <div class="icheck-primary">
@@ -841,23 +859,27 @@
                                                         <label for="check1"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read"><?=$message->getSender() ?></a></td>
+                                                <td class="mailbox-subject"><b><?= $message->getSubject() ?></b> 
                                                 </td>
-                                                <td class="mailbox-attachment"></td>
-                                                <td class="mailbox-date">5 mins ago</td>
+                                                <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
+                                                <td class="mailbox-date"><?= $message->getDatesend() ?></td>
                                             </tr>
-                                            <tr>
+                                            <?php endforeach; ?>
+                                            <!--<tr>
                                                 <td>
                                                     <div class="icheck-primary">
                                                         <input type="checkbox" value="" id="check2">
                                                         <label for="check2"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
                                                 <td class="mailbox-name"><a href="read">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">28 mins ago</td>
@@ -869,9 +891,12 @@
                                                         <label for="check3"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">11 hours ago</td>
@@ -883,9 +908,11 @@
                                                         <label for="check4"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
                                                 <td class="mailbox-name"><a href="read">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"></td>
                                                 <td class="mailbox-date">15 hours ago</td>
@@ -897,9 +924,11 @@
                                                         <label for="check5"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
                                                 <td class="mailbox-name"><a href="read">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">Yesterday</td>
@@ -911,9 +940,11 @@
                                                         <label for="check6"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
                                                 <td class="mailbox-name"><a href="read">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">2 days ago</td>
@@ -925,9 +956,11 @@
                                                         <label for="check7"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
                                                 <td class="mailbox-name"><a href="read">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">2 days ago</td>
@@ -939,9 +972,12 @@
                                                         <label for="check8"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"></td>
                                                 <td class="mailbox-date">2 days ago</td>
@@ -953,9 +989,12 @@
                                                         <label for="check9"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"></td>
                                                 <td class="mailbox-date">2 days ago</td>
@@ -967,9 +1006,12 @@
                                                         <label for="check10"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"></td>
                                                 <td class="mailbox-date">2 days ago</td>
@@ -981,9 +1023,12 @@
                                                         <label for="check11"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">4 days ago</td>
@@ -995,9 +1040,12 @@
                                                         <label for="check12"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"></td>
                                                 <td class="mailbox-date">12 days ago</td>
@@ -1009,9 +1057,12 @@
                                                         <label for="check13"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star-o text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star-o text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">12 days ago</td>
@@ -1023,9 +1074,12 @@
                                                         <label for="check14"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">14 days ago</td>
@@ -1037,13 +1091,16 @@
                                                         <label for="check15"></label>
                                                     </div>
                                                 </td>
-                                                <td class="mailbox-star"><a href="#"><i class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
-                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a solution to this problem...
+                                                <td class="mailbox-star"><a href="#"><i
+                                                            class="fas fa-star text-warning"></i></a></td>
+                                                <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a>
+                                                </td>
+                                                <td class="mailbox-subject"><b>AdminLTE 3.0 Issue</b> - Trying to find a
+                                                    solution to this problem...
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>
                                                 <td class="mailbox-date">15 days ago</td>
-                                            </tr>
+                                            </tr>-->
                                         </tbody>
                                     </table>
                                     <!-- /.table -->
@@ -1054,19 +1111,26 @@
                             <div class="card-footer p-0">
                                 <div class="mailbox-controls">
                                     <!-- Check all button -->
-                                    <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i class="far fa-square"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i
+                                            class="far fa-square"></i></button>
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-default btn-sm"><i class="far fa-trash-alt"></i></button>
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fas fa-reply"></i></button>
-                                        <button type="button" class="btn btn-default btn-sm"><i class="fas fa-share"></i></button>
+                                        <button type="button" class="btn btn-default btn-sm"><i
+                                                class="far fa-trash-alt"></i></button>
+                                        <button type="button" class="btn btn-default btn-sm"><i
+                                                class="fas fa-reply"></i></button>
+                                        <button type="button" class="btn btn-default btn-sm"><i
+                                                class="fas fa-share"></i></button>
                                     </div>
                                     <!-- /.btn-group -->
-                                    <button type="button" class="btn btn-default btn-sm"><i class="fas fa-sync-alt"></i></button>
+                                    <button type="button" class="btn btn-default btn-sm"><i
+                                            class="fas fa-sync-alt"></i></button>
                                     <div class="float-right">
                                         1-50/200
                                         <div class="btn-group">
-                                            <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-left"></i></button>
-                                            <button type="button" class="btn btn-default btn-sm"><i class="fas fa-chevron-right"></i></button>
+                                            <button type="button" class="btn btn-default btn-sm"><i
+                                                    class="fas fa-chevron-left"></i></button>
+                                            <button type="button" class="btn btn-default btn-sm"><i
+                                                    class="fas fa-chevron-right"></i></button>
                                         </div>
                                         <!-- /.btn-group -->
                                     </div>
@@ -1085,7 +1149,7 @@
         <!-- /.content-wrapper -->
         <footer class="main-footer">
             <strong>Copyright &copy; 2020-2021
-            <a href="http://adminlte.io">GrowVenture</a>.</strong> All rights reserved.
+                <a href="http://adminlte.io">GrowVenture</a>.</strong> All rights reserved.
             <div class="float-right d-none d-sm-inline-block">
                 Gédéon Nzyanga
             </div>
@@ -1105,42 +1169,44 @@
     <script src="views/assets/admin/dist/js/adminlte.js"></script>
     <!-- Page Script -->
     <script>
-        $(function() {
-            //Enable check and uncheck all functionality
-            $('.checkbox-toggle').click(function() {
-                var clicks = $(this).data('clicks')
-                if (clicks) {
-                    //Uncheck all checkboxes
-                    $('.mailbox-messages input[type=\'checkbox\']').prop('checked', false)
-                    $('.checkbox-toggle .far.fa-check-square').removeClass('fa-check-square').addClass('fa-square')
-                } else {
-                    //Check all checkboxes
-                    $('.mailbox-messages input[type=\'checkbox\']').prop('checked', true)
-                    $('.checkbox-toggle .far.fa-square').removeClass('fa-square').addClass('fa-check-square')
-                }
-                $(this).data('clicks', !clicks)
-            })
-
-            //Handle starring for glyphicon and font awesome
-            $('.mailbox-star').click(function(e) {
-                e.preventDefault()
-                    //detect type
-                var $this = $(this).find('a > i')
-                var glyph = $this.hasClass('glyphicon')
-                var fa = $this.hasClass('fa')
-
-                //Switch states
-                if (glyph) {
-                    $this.toggleClass('glyphicon-star')
-                    $this.toggleClass('glyphicon-star-empty')
-                }
-
-                if (fa) {
-                    $this.toggleClass('fa-star')
-                    $this.toggleClass('fa-star-o')
-                }
-            })
+    $(function() {
+        //Enable check and uncheck all functionality
+        $('.checkbox-toggle').click(function() {
+            var clicks = $(this).data('clicks')
+            if (clicks) {
+                //Uncheck all checkboxes
+                $('.mailbox-messages input[type=\'checkbox\']').prop('checked', false)
+                $('.checkbox-toggle .far.fa-check-square').removeClass('fa-check-square').addClass(
+                    'fa-square')
+            } else {
+                //Check all checkboxes
+                $('.mailbox-messages input[type=\'checkbox\']').prop('checked', true)
+                $('.checkbox-toggle .far.fa-square').removeClass('fa-square').addClass(
+                    'fa-check-square')
+            }
+            $(this).data('clicks', !clicks)
         })
+
+        //Handle starring for glyphicon and font awesome
+        $('.mailbox-star').click(function(e) {
+            e.preventDefault()
+            //detect type
+            var $this = $(this).find('a > i')
+            var glyph = $this.hasClass('glyphicon')
+            var fa = $this.hasClass('fa')
+
+            //Switch states
+            if (glyph) {
+                $this.toggleClass('glyphicon-star')
+                $this.toggleClass('glyphicon-star-empty')
+            }
+
+            if (fa) {
+                $this.toggleClass('fa-star')
+                $this.toggleClass('fa-star-o')
+            }
+        })
+    })
     </script>
     <!-- AdminLTE for demo purposes -->
     <script src="views/assets/admin/dist/js/demo.js"></script>
