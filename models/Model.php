@@ -26,8 +26,8 @@
 
         protected function getOne($procedure, $id, $obj){
             $var =[];
-            $query = $this->getBdd()->prepare("CALL ".$procedure. "(".$id.")");
-            $query->execute();
+            $query = $this->getBdd()->prepare("CALL ".$procedure. "(?)");
+            $query->execute(array($id));
             while($data = $query->fetch(PDO::FETCH_ASSOC)){
                 $var[] = new $obj($data);
             }

@@ -2,6 +2,7 @@
     require_once('views/View.php');
         class ControllerNews{
 
+            private $_newManager;
             private $_view;
 
             public function __construct($url)
@@ -13,7 +14,9 @@
             }
 
             private function news(){
+                $this->_newManager = new NewManager();
+                $news = $this->_newManager->getNews();
                 $this->_view = new View('News');
-                $this->_view->generate1();
+                $this->_view->generate(array('news'=>$news));
             }
         }

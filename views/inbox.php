@@ -445,7 +445,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="../mailbox/compose.html" class="nav-link">
+                                    <a href="compose" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Compose</p>
                                     </a>
@@ -722,7 +722,7 @@
             <section class="content">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="compose.html" class="btn btn-primary btn-block mb-3">Compose</a>
+                        <a href="compose" class="btn btn-primary btn-block mb-3">Compose</a>
 
                         <div class="card">
                             <div class="card-header">
@@ -861,7 +861,7 @@
                                                 </td>
                                                 <td class="mailbox-star"><a href="#"><i
                                                             class="fas fa-star text-warning"></i></a></td>
-                                                <td class="mailbox-name"><a href="read"><?=$message->getSender() ?></a></td>
+                                                <td class="mailbox-name"><a href="views/read.php?id=<?= $message->getIdm() ?>"><?=$message->getSender() ?></a></td>
                                                 <td class="mailbox-subject"><b><?= $message->getSubject() ?></b> 
                                                 </td>
                                                 <td class="mailbox-attachment"><i class="fas fa-paperclip"></i></td>

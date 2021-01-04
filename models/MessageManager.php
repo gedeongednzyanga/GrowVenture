@@ -6,8 +6,9 @@
         }
 
         public function getOneMessage($id){
-            return $this->getOne("", $id, "Message");
+            return $this->getOne("GETONE_MESSAGE", $id, "Message");
         }
+        
         public function createObject($action, $procedure, $obj){
             $query = $this->getBdd()->prepare("CALL ".$procedure. " (?,?,?,?,?,?)");
             $query->execute(array($action, $obj->getIdm(), $obj->getSubject(), $obj->getMessage(), $obj->getSender(), $obj->getEmail()));

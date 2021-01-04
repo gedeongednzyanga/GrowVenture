@@ -35,11 +35,12 @@
             <!-- SEARCH FORM -->
             <form class="form-inline ml-3">
                 <div class="input-group input-group-sm">
-                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search" />
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                        aria-label="Search" />
                     <div class="input-group-append">
                         <button class="btn btn-navbar" type="submit">
-              <i class="fas fa-search"></i>
-            </button>
+                            <i class="fas fa-search"></i>
+                        </button>
                     </div>
                 </div>
             </form>
@@ -56,7 +57,8 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle" />
+                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 mr-3 img-circle" />
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -74,7 +76,8 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
+                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3" />
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -92,11 +95,13 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
+                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3" />
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
                                     <p class="text-sm text-muted">
@@ -150,7 +155,8 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="../index3.html" class="brand-link">
-                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: 0.8" />
+                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                    class="brand-image img-circle elevation-3" style="opacity: 0.8" />
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
 
@@ -159,7 +165,8 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" />
+                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2"
+                            alt="User Image" />
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">Alexander Pierce</a>
@@ -168,7 +175,8 @@
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview">
@@ -733,7 +741,8 @@
                                     <h5 class="widget-user-desc">Founder & CEO</h5>
                                 </div>
                                 <div class="widget-user-image">
-                                    <img class="img-circle elevation-2" src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" />
+                                    <img class="img-circle elevation-2"
+                                        src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" />
                                 </div>
                                 <div class="card-footer">
                                     <div class="row">
@@ -777,7 +786,8 @@
                                     <h5 class="widget-user-desc">Founder & CEO</h5>
                                 </div>
                                 <div class="widget-user-image">
-                                    <img class="img-circle elevation-2" src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" />
+                                    <img class="img-circle elevation-2"
+                                        src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" />
                                 </div>
                                 <div class="card-footer">
                                     <div class="row">
@@ -825,7 +835,8 @@
                                     <h5 class="widget-user-desc text-right">Web Designer</h5>
                                 </div>
                                 <div class="widget-user-image">
-                                    <img class="img-circle" src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar" />
+                                    <img class="img-circle" src="views/assets/admin/dist/img/user3-128x128.jpg"
+                                        alt="User Avatar" />
                                 </div>
                                 <div class="card-footer">
                                     <div class="row">
@@ -875,35 +886,44 @@
                                     </div>
                                     <!-- /.card-header -->
                                     <div class="card-body pad">
-                                        <form action="controllers/controllerQuery/NewQuery.php" id="form-new" method="POST" enctype="multipart/form-data">
+                                        <form action="controllers/controllerQuery/NewQuery.php" id="form-new"
+                                            method="POST" enctype="multipart/form-data">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" name="title" id="title" placeholder="Title. Ex : First GrowVenture Hosting" class="form-control">
+                                                        <input type="text" name="title" id="title"
+                                                            placeholder="Title. Ex : First GrowVenture Hosting"
+                                                            class="form-control">
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" name="refcatnew" value="1" id="title" placeholder="Ref. cat Ex : First GrowVenture Hosting" class="form-control">
+                                                        <input type="text" name="refcatnew" value="1" id="title"
+                                                            placeholder="Ref. cat Ex : First GrowVenture Hosting"
+                                                            class="form-control">
                                                         <input type="hidden" name="refuser" value="1" />
-                                                        <input type="hidden" name="id" value="0"/>
+                                                        <input type="hidden" name="id" value="0" />
                                                         <input type="hidden" name="action" value="create">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="mb-3">
-                                                <textarea class="textarea" name="content" id="content" placeholder="Place some text here" style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
+                                                <textarea class="textarea" name="content" id="content"
+                                                    placeholder="Place some text here"
+                                                    style="width: 100%; height: 200px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; padding: 10px;"></textarea>
                                             </div>
                                             <p class="text-sm mb-0">
-                                                <div class="form-group">
-                                                    <div class="custom-file">
-                                                        <input type="file" name="image" accept="image/*" class="custom-file-input" id="customFile">
-                                                        <label class="custom-file-label" for="customFile">Choose file</label>
-                                                    </div>
+                                            <div class="form-group">
+                                                <div class="custom-file">
+                                                    <input type="file" name="image" accept="image/*"
+                                                        class="custom-file-input" id="customFile">
+                                                    <label class="custom-file-label" for="customFile">Choose
+                                                        file</label>
                                                 </div>
-                                                <button class="btn btn-sm btn-info" type="submit">Publier</button>
-                                                <span class="small message-success text-success"></span>
-                                                <span class="small message-danger text-danger"></span>
+                                            </div>
+                                            <button class="btn btn-sm btn-info" type="submit">Publier</button>
+                                            <span class="small message-success text-success"></span>
+                                            <span class="small message-danger text-danger"></span>
                                             </p>
                                         </form>
                                     </div>
@@ -921,36 +941,39 @@
                             <div class="card card-widget">
                                 <div class="card-header">
                                     <div class="user-block">
-                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg"
+                                            alt="User Image" />
                                         <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                                         <span class="description">Shared publicly - 7:30 PM Today</span>
                                     </div>
                                     <!-- /.user-block -->
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Mark as read">
-                                          <i class="far fa-circle"></i>
+                                        <button type="button" class="btn btn-tool" data-toggle="tooltip"
+                                            title="Mark as read">
+                                            <i class="far fa-circle"></i>
                                         </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                          <i class="fas fa-minus"></i>
+                                            <i class="fas fa-minus"></i>
                                         </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                          <i class="fas fa-times"></i>
+                                            <i class="fas fa-times"></i>
                                         </button>
                                     </div>
                                     <!-- /.card-tools -->
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body">
-                                    <img class="img-fluid pad" src="views/assets/admin/dist/img/photo2.png" alt="Photo" />
+                                    <img class="img-fluid pad" src="views/assets/admin/dist/img/photo2.png"
+                                        alt="Photo" />
 
                                     <p>
                                         I took this photo this morning. What do you guys think?
                                     </p>
                                     <button type="button" class="btn btn-default btn-sm">
-                                      <i class="fas fa-share"></i> Share
+                                        <i class="fas fa-share"></i> Share
                                     </button>
                                     <button type="button" class="btn btn-default btn-sm">
-                                      <i class="far fa-thumbs-up"></i> Like
+                                        <i class="far fa-thumbs-up"></i> Like
                                     </button>
                                     <span class="float-right text-muted">127 likes - 3 comments</span>
                                 </div>
@@ -959,10 +982,12 @@
                                 <!-- /.card-footer -->
                                 <div class="card-footer">
                                     <form action="#" method="post">
-                                        <img class="img-fluid img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
+                                        <img class="img-fluid img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
                                         <!-- .img-push is used to add margin to elements next to floating images -->
                                         <div class="img-push">
-                                            <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment" />
+                                            <input type="text" class="form-control form-control-sm"
+                                                placeholder="Press enter to post comment" />
                                         </div>
                                     </form>
                                 </div>
@@ -975,13 +1000,15 @@
                             <div class="card card-widget">
                                 <div class="card-header">
                                     <div class="user-block">
-                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg"
+                                            alt="User Image" />
                                         <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                                         <span class="description">Shared publicly - 7:30 PM Today</span>
                                     </div>
                                     <!-- /.user-block -->
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Mark as read">
+                                        <button type="button" class="btn btn-tool" data-toggle="tooltip"
+                                            title="Mark as read">
                                             <i class="far fa-circle"></i>
                                         </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
@@ -999,77 +1026,95 @@
                                 <div class="card-footer card-comments">
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Maria Gonzales<span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Maria Gonzales<span
+                                                    class="text-muted float-right">8:03 PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <!-- /.card-comment -->
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <!-- /.card-comment -->
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <!-- /.card-comment -->
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <!-- /.card-comment -->
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
@@ -1080,10 +1125,12 @@
                                 <!-- /.card-footer -->
                                 <div class="card-footer">
                                     <form action="#" method="post">
-                                        <img class="img-fluid img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
+                                        <img class="img-fluid img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
                                         <!-- .img-push is used to add margin to elements next to floating images -->
                                         <div class="img-push">
-                                            <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment" />
+                                            <input type="text" class="form-control form-control-sm"
+                                                placeholder="Press enter to post comment" />
                                         </div>
                                     </form>
                                 </div>
@@ -1097,20 +1144,22 @@
                             <div class="card card-widget">
                                 <div class="card-header">
                                     <div class="user-block">
-                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg"
+                                            alt="User Image" />
                                         <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                                         <span class="description">Shared publicly - 7:30 PM Today</span>
                                     </div>
                                     <!-- /.user-block -->
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Mark as read">
-                              <i class="far fa-circle"></i>
-                                </button>
+                                        <button type="button" class="btn btn-tool" data-toggle="tooltip"
+                                            title="Mark as read">
+                                            <i class="far fa-circle"></i>
+                                        </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                             <i class="fas fa-minus"></i>
                                         </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                          <i class="fas fa-times"></i>
+                                            <i class="fas fa-times"></i>
                                         </button>
                                     </div>
                                     <!-- /.card-tools -->
@@ -1119,16 +1168,21 @@
                                 <div class="card-body">
                                     <!-- post text -->
                                     <p>
-                                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at
+                                        Far far away, behind the word mountains, far from the countries Vokalia and
+                                        Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+                                        right at
                                     </p>
 
                                     <p>
-                                        the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                                        the coast of the Semantics, a large language ocean. A small river named Duden
+                                        flows by their place and supplies it with the necessary regelialia. It is a
+                                        paradisematic country, in which roasted parts of sentences fly into your mouth.
                                     </p>
 
                                     <!-- Attachment -->
                                     <div class="attachment-block clearfix">
-                                        <img class="attachment-img" src="views/assets/admin/dist/img/photo1.png" alt="Attachment Image" />
+                                        <img class="attachment-img" src="views/assets/admin/dist/img/photo1.png"
+                                            alt="Attachment Image" />
 
                                         <div class="attachment-pushed">
                                             <h4 class="attachment-heading">
@@ -1136,7 +1190,9 @@
                                             </h4>
 
                                             <div class="attachment-text">
-                                                Description about the attachment can be placed here. Lorem Ipsum is simply dummy text of the printing and typesetting industry... <a href="#">more</a>
+                                                Description about the attachment can be placed here. Lorem Ipsum is
+                                                simply dummy text of the printing and typesetting industry... <a
+                                                    href="#">more</a>
                                             </div>
                                             <!-- /.attachment-text -->
                                         </div>
@@ -1146,19 +1202,21 @@
 
                                     <!-- Social sharing buttons -->
                                     <button type="button" class="btn btn-default btn-sm">
-                                      <i class="fas fa-share"></i> Share
+                                        <i class="fas fa-share"></i> Share
                                     </button>
                                     <button type="button" class="btn btn-default btn-sm">
-                                      <i class="far fa-thumbs-up"></i> Like
+                                        <i class="far fa-thumbs-up"></i> Like
                                     </button>
                                     <span class="float-right text-muted">45 likes - 2 comments</span>
                                 </div>
                                 <div class="card-footer">
                                     <form action="#" method="post">
-                                        <img class="img-fluid img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
+                                        <img class="img-fluid img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
                                         <!-- .img-push is used to add margin to elements next to floating images -->
                                         <div class="img-push">
-                                            <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment" />
+                                            <input type="text" class="form-control form-control-sm"
+                                                placeholder="Press enter to post comment" />
                                         </div>
                                     </form>
                                 </div>
@@ -1171,21 +1229,23 @@
                             <div class="card card-widget">
                                 <div class="card-header">
                                     <div class="user-block">
-                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle" src="views/assets/admin/dist/img/user1-128x128.jpg"
+                                            alt="User Image" />
                                         <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
                                         <span class="description">Shared publicly - 7:30 PM Today</span>
                                     </div>
                                     <!-- /.user-block -->
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Mark as read">
-                                          <i class="far fa-circle"></i>
-                                      </button>
+                                        <button type="button" class="btn btn-tool" data-toggle="tooltip"
+                                            title="Mark as read">
+                                            <i class="far fa-circle"></i>
+                                        </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
-                                          <i class="fas fa-minus"></i>
-                                      </button>
+                                            <i class="fas fa-minus"></i>
+                                        </button>
                                         <button type="button" class="btn btn-tool" data-card-widget="remove">
-                                          <i class="fas fa-times"></i>
-                                      </button>
+                                            <i class="fas fa-times"></i>
+                                        </button>
                                     </div>
                                     <!-- /.card-tools -->
                                 </div>
@@ -1195,38 +1255,47 @@
                                 <div class="card-footer card-comments">
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Maria Gonzales<span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Maria Gonzales<span
+                                                    class="text-muted float-right">8:03 PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <!-- /.card-comment -->
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
                                     <div class="card-comment">
                                         <!-- User image -->
-                                        <img class="img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
+                                        <img class="img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="User Image" />
 
                                         <div class="comment-text">
-                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03 PM Today</span>
+                                            <span class="username"> Luna Stark <span class="text-muted float-right">8:03
+                                                    PM Today</span>
                                             </span>
                                             <!-- /.username -->
-                                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                                            It is a long established fact that a reader will be distracted by the
+                                            readable content of a page when looking at its layout.
                                         </div>
                                         <!-- /.comment-text -->
                                     </div>
@@ -1236,10 +1305,12 @@
                                 <!-- /.card-footer -->
                                 <div class="card-footer">
                                     <form action="#" method="post">
-                                        <img class="img-fluid img-circle img-sm" src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
+                                        <img class="img-fluid img-circle img-sm"
+                                            src="views/assets/admin/dist/img/user4-128x128.jpg" alt="Alt Text" />
                                         <!-- .img-push is used to add margin to elements next to floating images -->
                                         <div class="img-push">
-                                            <input type="text" class="form-control form-control-sm" placeholder="Press enter to post comment" />
+                                            <input type="text" class="form-control form-control-sm"
+                                                placeholder="Press enter to post comment" />
                                         </div>
                                     </form>
                                 </div>
@@ -1264,7 +1335,7 @@
         <footer class="main-footer">
             <div class="float-right d-none d-sm-block">Gédéon Nzyanga</div>
             <strong>Copyright &copy; 2020-2021
-        <a href="http://growventure.com">GrowVenture</a>.</strong> All rights reserved.
+                <a href="http://growventure.com">GrowVenture</a>.</strong> All rights reserved.
         </footer>
 
         <!-- Control Sidebar -->
@@ -1285,10 +1356,10 @@
     <script src="views/assets/admin/dist/js/demo.js"></script>
     <script src="views/assets/admin/summernote/summernote-bs4.min.js"></script>
     <script>
-        $(function() {
-            // Summernote
-            $('.textarea').summernote()
-        })
+    $(function() {
+        // Summernote
+        $('.textarea').summernote()
+    })
     </script>
     <script src="views/assets/js/custom-js.js"></script>
 </body>

@@ -1,3 +1,10 @@
+<?php
+    spl_autoload_register(function($class){
+        require '../models/'.$class.'.php';
+    });
+    $messageManage = new messageManager();
+    $message = $messageManage->getOneMessage($_GET['id']);
+?>
 <!DOCTYPE html>
 <html>
 
@@ -7,11 +14,11 @@
     <title>Growventure | Read Mail</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="views/assets/img/favicon.ico">
-    <link rel="stylesheet" href="views/assets/css/fontawesome-all.min.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="views/assets/admin/dist/css/adminlte.min.css" />
+    <link rel="stylesheet" href="assets/admin/dist/css/adminlte.min.css" />
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -58,7 +65,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar"
+                                <img src="assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar"
                                     class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
@@ -75,7 +82,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar"
+                                <img src="assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar"
                                     class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
@@ -92,7 +99,7 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar"
+                                <img src="assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar"
                                     class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
@@ -150,7 +157,7 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="../../index3.html" class="brand-link">
-                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                <img src="assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
@@ -160,7 +167,7 @@
                 <!-- Sidebar user (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2"
+                        <img src="assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
@@ -704,12 +711,12 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>Compose</h1>
+                            <h1>Reading</h1>
                         </div>
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Compose</li>
+                                <li class="breadcrumb-item active">Read</li>
                             </ol>
                         </div>
                     </div>
@@ -721,7 +728,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-3">
-                            <a href="mailbox.html" class="btn btn-primary btn-block mb-3">Back to Inbox</a>
+                            <a href="../inbox" class="btn btn-primary btn-block mb-3">Back to Inbox</a>
 
                             <div class="card">
                                 <div class="card-header">
@@ -812,11 +819,13 @@
                                     </div>
                                 </div>
                                 <!-- /.card-header -->
+                                <?php
+                                foreach ($message as $message):?>
                                 <div class="card-body p-0">
                                     <div class="mailbox-read-info">
-                                        <h5>Message Subject Is Placed Here</h5>
-                                        <h6>From: support@adminlte.io
-                                            <span class="mailbox-read-time float-right">15 Feb. 2015 11:03 PM</span>
+                                        <h5><?=$message->getSubject();?></h5>
+                                        <h6>From: <?=$message->getEmail();?>
+                                            <span class="mailbox-read-time float-right"><?=$message->getDateSend();?></span>
                                         </h6>
                                     </div>
                                     <!-- /.mailbox-read-info -->
@@ -840,20 +849,8 @@
                                     <!-- /.mailbox-controls -->
                                     <div class="mailbox-read-message">
                                         <p>Hello John,</p>
-
-                                        <p>Keffiyeh blog actually fashion axe vegan, irony biodiesel. Cold-pressed
-                                            hoodie chillwave put a bird
-                                            on it aesthetic, bitters brunch meggings vegan iPhone. Dreamcatcher vegan
-                                            scenester mlkshk. Ethical
-                                            master cleanse Bushwick, occupy Thundercats banjo cliche ennui farm-to-table
-                                            mlkshk fanny pack
-                                            gluten-free. Marfa butcher vegan quinoa, bicycle rights disrupt tofu
-                                            scenester chillwave 3 wolf moon
-                                            asymmetrical taxidermy pour-over. Quinoa tote bag fashion axe, Godard
-                                            disrupt migas church-key tofu
-                                            blog locavore. Thundercats cronut polaroid Neutra tousled, meh food truck
-                                            selfies narwhal American
-                                            Apparel.</p>
+                                        <p><?=$message->getMessage();?></p>
+                                        
 
                                         <p>Raw denim McSweeney's bicycle rights, iPhone trust fund quinoa Neutra VHS
                                             kale chips vegan PBR&amp;B
@@ -883,22 +880,14 @@
                                             them actually tofu ennui
                                             keffiyeh lo-fi Truffaut health goth. Narwhal sustainable retro disrupt.</p>
 
-                                        <p>Skateboard artisan letterpress before they sold out High Life messenger bag.
-                                            Bitters chambray
-                                            leggings listicle, drinking vinegar chillwave synth. Fanny pack hoodie
-                                            American Apparel twee. American
-                                            Apparel PBR listicle, salvia aesthetic occupy sustainable Neutra kogi.
-                                            Organic synth Tumblr viral
-                                            plaid, shabby chic single-origin coffee Etsy 3 wolf moon slow-carb Schlitz
-                                            roof party tousled squid
-                                            vinyl. Readymade next level literally trust fund. Distillery master cleanse
-                                            migas, Vice sriracha
-                                            flannel chambray chia cronut.</p>
+                                        
 
-                                        <p>Thanks,<br>Jane</p>
+                                        <p>Thanks,<br><?=$message->getSender();?></p>
                                     </div>
+                                  
                                     <!-- /.mailbox-read-message -->
                                 </div>
+                                <?php endforeach; ?>
                                 <!-- /.card-body -->
                                 <div class="card-footer bg-white">
                                     <ul class="mailbox-attachments d-flex align-items-stretch clearfix">
@@ -931,7 +920,7 @@
                                         </li>
                                         <li>
                                             <span class="mailbox-attachment-icon has-img"><img
-                                                    src="views/assets/admin/dist/img/photo1.png"
+                                                    src="assets/admin/dist/img/photo1.png"
                                                     alt="Attachment"></span>
 
                                             <div class="mailbox-attachment-info">
@@ -946,7 +935,7 @@
                                         </li>
                                         <li>
                                             <span class="mailbox-attachment-icon has-img"><img
-                                                    src="views/assets/admin/dist/img/photo2.png"
+                                                    src="assets/admin/dist/img/photo2.png"
                                                     alt="Attachment"></span>
 
                                             <div class="mailbox-attachment-info">
@@ -999,10 +988,10 @@
         <!-- /.control-sidebar -->
     </div>
     <!-- ./wrapper -->
-    <script src="views/assets/admin/jquery/jquery.min.js"></script>
-    <script src="views/assets/admin/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="views/assets/admin/dist/js/adminlte.js"></script>
-    <script src="views/assets/admin/dist/js/demo.js"></script>
+    <script src="assets/admin/jquery/jquery.min.js"></script>
+    <script src="assets/admin/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/admin/dist/js/adminlte.js"></script>
+    <script src="assets/admin/dist/js/demo.js"></script>
 </body>
 
 </html>
