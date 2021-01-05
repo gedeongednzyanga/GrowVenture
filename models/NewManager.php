@@ -2,11 +2,11 @@
 class NewManager extends Model{
 
     public function getNews(){
-        return $this->getAll('GETALL_NEWS', 'new');
+        return $this->getAll('GETALL_NEWS', 'news');
     }
 
     public function getOneNew($id){
-        return $this->getOne("GETALL_NEWS", $id, "New");
+        return $this->getOne("GETALL_NEWS", $id, "News");
     }
 
     public function createObject($action, $procedure, $obj){

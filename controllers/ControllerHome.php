@@ -14,8 +14,11 @@
         }
 
         private function home(){
-            
+
+            $this->_newManager = new NewManager();
+            $news = $this->_newManager->getNews();
             $this->_view = new View('Home');
-            $this->_view->generate1();
+            $this->_view->generate(array('news'=>$news));
+
         }
     }

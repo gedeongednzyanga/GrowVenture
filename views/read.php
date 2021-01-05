@@ -825,7 +825,8 @@
                                     <div class="mailbox-read-info">
                                         <h5><?=$message->getSubject();?></h5>
                                         <h6>From: <?=$message->getEmail();?>
-                                            <span class="mailbox-read-time float-right"><?=$message->getDateSend();?></span>
+                                            <span
+                                                class="mailbox-read-time float-right"><?=$message->getDateSend();?></span>
                                         </h6>
                                     </div>
                                     <!-- /.mailbox-read-info -->
@@ -850,7 +851,7 @@
                                     <div class="mailbox-read-message">
                                         <p>Hello John,</p>
                                         <p><?=$message->getMessage();?></p>
-                                        
+
 
                                         <p>Raw denim McSweeney's bicycle rights, iPhone trust fund quinoa Neutra VHS
                                             kale chips vegan PBR&amp;B
@@ -880,11 +881,11 @@
                                             them actually tofu ennui
                                             keffiyeh lo-fi Truffaut health goth. Narwhal sustainable retro disrupt.</p>
 
-                                        
+
 
                                         <p>Thanks,<br><?=$message->getSender();?></p>
                                     </div>
-                                  
+
                                     <!-- /.mailbox-read-message -->
                                 </div>
                                 <?php endforeach; ?>
@@ -920,8 +921,7 @@
                                         </li>
                                         <li>
                                             <span class="mailbox-attachment-icon has-img"><img
-                                                    src="assets/admin/dist/img/photo1.png"
-                                                    alt="Attachment"></span>
+                                                    src="assets/admin/dist/img/photo1.png" alt="Attachment"></span>
 
                                             <div class="mailbox-attachment-info">
                                                 <a href="#" class="mailbox-attachment-name"><i
@@ -935,8 +935,7 @@
                                         </li>
                                         <li>
                                             <span class="mailbox-attachment-icon has-img"><img
-                                                    src="assets/admin/dist/img/photo2.png"
-                                                    alt="Attachment"></span>
+                                                    src="assets/admin/dist/img/photo2.png" alt="Attachment"></span>
 
                                             <div class="mailbox-attachment-info">
                                                 <a href="#" class="mailbox-attachment-name"><i

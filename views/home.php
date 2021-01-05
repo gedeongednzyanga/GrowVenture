@@ -111,13 +111,15 @@
         <div class="slider-area ">
             <!-- Mobile Menu -->
             <div class="slider-active">
-                <div class="single-slider slider-height d-flex align-items-center" data-background="views/assets/images/growventuremain.jpg">
+                <div class="single-slider slider-height d-flex align-items-center"
+                    data-background="views/assets/images/growventuremain.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8">
                                 <div class="hero__caption">
                                     <p data-animation="fadeInLeft" data-delay=".4s">Welcome to GrowVenture</p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">We help you to grow your business</h1>
+                                    <h1 data-animation="fadeInLeft" data-delay=".6s">We help you to grow your business
+                                    </h1>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
                                         <a href="industries.html" class="btn hero-btn">Learn More</a>
@@ -127,13 +129,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider slider-height d-flex align-items-center" data-background="views/assets/img/hero/h1_hero.jpg">
+                <div class="single-slider slider-height d-flex align-items-center"
+                    data-background="views/assets/img/hero/h1_hero.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8">
                                 <div class="hero__caption">
                                     <p data-animation="fadeInLeft" data-delay=".4s">Welcome to GrowVenture</p>
-                                    <h1 data-animation="fadeInLeft" data-delay=".6s">We help you to grow your business</h1>
+                                    <h1 data-animation="fadeInLeft" data-delay=".6s">We help you to grow your business
+                                    </h1>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
                                         <a href="industries.html" class="btn hero-btn">Learn More</a>
@@ -160,7 +164,8 @@
                                 </div>
                                 <div class="profile-caption">
                                     <h4><a href="#">Business Planning</a></h4>
-                                    <p>La gestion à l’affaire dans GrowVenture et notamment le planning d’affaires, permet de répondre...
+                                    <p>La gestion à l’affaire dans GrowVenture et notamment le planning d’affaires,
+                                        permet de répondre...
                                         <a href="#" class="text-danger">En savoir plus</a>
                                     </p>
                                 </div>
@@ -176,7 +181,8 @@
                                 </div>
                                 <div class="profile-caption">
                                     <h4><a href="#">Financial Projections</a></h4>
-                                    <p>Le plan d’affaires est l’un des piliers les plus importants de toute nouvelle entreprise, et les projections ...
+                                    <p>Le plan d’affaires est l’un des piliers les plus importants de toute nouvelle
+                                        entreprise, et les projections ...
                                         <a href="#" class="text-danger">En savoir plus</a>
                                     </p>
                                 </div>
@@ -188,7 +194,8 @@
                             <!-- Back -->
                             <div class="single-profile-back-last">
                                 <h2>Ce que nous faisons pour vous</h2>
-                                <p>Nous vous prêtons de l'argent pour développer votre business et agrandir votre entreprise.</p>
+                                <p>Nous vous prêtons de l'argent pour développer votre business et agrandir votre
+                                    entreprise.</p>
                                 <a href="#">Voir plus »</a>
                             </div>
                         </div>
@@ -210,7 +217,9 @@
                     <div class="col-xl-5 col-lg-5">
                         <div class="trusted-caption">
                             <h2>Nous sommes plus fiables que 5000 clients</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru dolor sit amet, consectetur adipn.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru dolor
+                                sit amet, consectetur adipn.</p>
                             <a href="#" class="btn trusted-btn">Learn More</a>
                         </div>
                     </div>
@@ -239,7 +248,8 @@
                             </div>
                             <div class="services-caption">
                                 <h4>Strategic Planning</h4>
-                                <p>La planification stratégique est un processus de développement des stratégies pour atteindre un objectif fixé.</p>
+                                <p>La planification stratégique est un processus de développement des stratégies pour
+                                    atteindre un objectif fixé.</p>
                             </div>
                         </div>
                     </div>
@@ -284,7 +294,9 @@
                     <div class="col-xl-4 col-lg-4 col-md-8">
                         <div class="single-cases-info mb-30">
                             <h3>Completed Cases</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ali quUt enim ad minim veniam. quis nostrud exercitation ullamco laboris nierci si ut.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna ali quUt enim ad minim veniam. quis nostrud
+                                exercitation ullamco laboris nierci si ut.</p>
                             <a href="gallery.html" class="border-btn border-btn2">See more</a>
                         </div>
                     </div>
@@ -331,7 +343,8 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>You can’t succeed if you just do what others do and follow the well-worn path. You need to create a new and original path for yourself. </p>
+                                    <p>You can’t succeed if you just do what others do and follow the well-worn path.
+                                        You need to create a new and original path for yourself. </p>
                                     <!-- Rattion -->
                                     <div class="rattiong-caption">
                                         <span>Gédéon Nzyanga<span>
@@ -346,7 +359,8 @@
                                 </div>
                                 <!-- Testimonial Content -->
                                 <div class="testimonial-caption text-center">
-                                    <p>Everything you want is out there waiting for you. But you have to take action to get it. </p>
+                                    <p>Everything you want is out there waiting for you. But you have to take action to
+                                        get it. </p>
                                     <!-- Rattion -->
                                     <div class="rattiong-caption">
                                         <span>Jules Renard<span>
@@ -372,18 +386,21 @@
                     </div>
                 </div>
                 <div class="row">
+                    <?php foreach($news as $new): ?>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-recent-cap mb-30">
                             <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_1.png" alt="">
+                                <img src="views/assets/news_post/<?= $new->getImage() ?>" height="241" width="362"
+                                    alt="Pas d'image">
                             </div>
                             <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
+                                <span><?= $new->getTitle() ?></span>
+                                <h4><a href="single"><?= $new->getContent() ?></a></h4>
+                                <p><?= $new->getDatepub() ?></p>
                             </div>
                         </div>
                     </div>
+                    <?php endforeach; ?>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-recent-cap mb-30">
                             <div class="recent-img">
@@ -421,66 +438,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_2.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Audit</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_3.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_1.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_2.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Audit</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_3.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="room-btn pt-50">
+                        <a href="blog" class="border-btn">See More</a>
                     </div>
                 </div>
             </div>

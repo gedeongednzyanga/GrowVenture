@@ -37,11 +37,12 @@
             <!-- SEARCH FORM -->
             <form class="form-inline ml-3">
                 <div class="input-group input-group-sm">
-                    <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control form-control-navbar" type="search" placeholder="Search"
+                        aria-label="Search">
                     <div class="input-group-append">
                         <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
-          </button>
+                            <i class="fas fa-search"></i>
+                        </button>
                     </div>
                 </div>
             </form>
@@ -58,7 +59,8 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <img src="views/assets/admin/dist/img/user1-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
@@ -74,7 +76,8 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="views/assets/admin/dist/img/user8-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         John Pierce
@@ -90,11 +93,13 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                                <img src="views/assets/admin/dist/img/user3-128x128.jpg" alt="User Avatar"
+                                    class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Nora Silvester
-                                        <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                                        <span class="float-right text-sm text-warning"><i
+                                                class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
                                     <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
@@ -146,7 +151,8 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="../../index3.html" class="brand-link">
-                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <img src="views/assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                    class="brand-image img-circle elevation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
 
@@ -155,7 +161,8 @@
                 <!-- Sidebar user (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <img src="views/assets/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2"
+                            alt="User Image">
                     </div>
                     <div class="info">
                         <a href="#" class="d-block">Alexander Pierce</a>
@@ -164,7 +171,8 @@
 
                 <!-- Sidebar Menu -->
                 <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                         <li class="nav-item has-treeview">
@@ -722,8 +730,9 @@
                                     <h3 class="card-title">Folders</h3>
 
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                                                class="fas fa-minus"></i>
+                                        </button>
                                     </div>
                                 </div>
                                 <div class="card-body p-0">
@@ -765,21 +774,25 @@
                                     <h3 class="card-title">Labels</h3>
 
                                     <div class="card-tools">
-                                        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i class="fas fa-minus"></i>
-                  </button>
+                                        <button type="button" class="btn btn-tool" data-card-widget="collapse"><i
+                                                class="fas fa-minus"></i>
+                                        </button>
                                     </div>
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body p-0">
                                     <ul class="nav nav-pills flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="far fa-circle text-danger"></i> Important</a>
+                                            <a class="nav-link" href="#"><i class="far fa-circle text-danger"></i>
+                                                Important</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="far fa-circle text-warning"></i> Promotions</a>
+                                            <a class="nav-link" href="#"><i class="far fa-circle text-warning"></i>
+                                                Promotions</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"><i class="far fa-circle text-primary"></i> Social</a>
+                                            <a class="nav-link" href="#"><i class="far fa-circle text-primary"></i>
+                                                Social</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -839,10 +852,13 @@
                                 <!-- /.card-body -->
                                 <div class="card-footer">
                                     <div class="float-right">
-                                        <button type="button" class="btn btn-default"><i class="fas fa-pencil-alt"></i> Draft</button>
-                                        <button type="submit" class="btn btn-primary"><i class="far fa-envelope"></i> Send</button>
+                                        <button type="button" class="btn btn-default"><i class="fas fa-pencil-alt"></i>
+                                            Draft</button>
+                                        <button type="submit" class="btn btn-primary"><i class="far fa-envelope"></i>
+                                            Send</button>
                                     </div>
-                                    <button type="reset" class="btn btn-default"><i class="fas fa-times"></i> Discard</button>
+                                    <button type="reset" class="btn btn-default"><i class="fas fa-times"></i>
+                                        Discard</button>
                                 </div>
                                 <!-- /.card-footer -->
                             </div>
@@ -861,7 +877,8 @@
             <div class="float-right d-none d-sm-block">
                 <b>Version</b> 3.0.5
             </div>
-            <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights
+            reserved.
         </footer>
 
         <!-- Control Sidebar -->
@@ -881,10 +898,10 @@
     <script src="views/assets/admin/summernote/summernote-bs4.min.js"></script>
     <!-- Page Script -->
     <script>
-        $(function() {
-            //Add text editor
-            $('#compose-textarea').summernote()
-        })
+    $(function() {
+        //Add text editor
+        $('#compose-textarea').summernote()
+    })
     </script>
 </body>
 
