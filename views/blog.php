@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>GrowVenture | Blog </title>
+    <title>GrowVenture | Blog </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    
+
     <!-- Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -28,37 +28,38 @@
 
     <header>
         <!-- Header Start -->
-       <div class="header-area">
+        <div class="header-area">
             <div class="main-header ">
-                <div class="header-top top-bg d-none d-lg-block" >
-                   <div class="container-fluid">
-                       <div class="col-xl-12">
+                <div class="header-top top-bg d-none d-lg-block">
+                    <div class="container-fluid">
+                        <div class="col-xl-12">
                             <div class="row d-flex justify-content-between align-items-center">
                                 <div class="header-info-left">
-                                    <ul>     
-                                        <li><i class="fas fa-map-marker-alt"></i>65/A, 17th floor, Kings land, New York</li>
-                                        <li><i class="fas fa-envelope"></i>info@consulting.com</li>
+                                    <ul>
+                                        <li><i class="fas fa-map-marker-alt"></i>Goma, North-Kivu, DRC</li>
+                                        <li><i class="fas fa-envelope"></i>growventure2@gmail.com</li>
+                                        <li><i class="fas fa-phone"></i>+243 998 435 328, 812 287 927</li>
                                     </ul>
                                 </div>
                                 <div class="header-info-right">
-                                    <ul class="header-social">    
+                                    <ul class="header-social">
                                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                       <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
-                       </div>
-                   </div>
+                        </div>
+                    </div>
                 </div>
-               <div class="header-bottom  header-sticky" id="menu">
+                <div class="header-bottom  header-sticky" id="menu">
                     <div class="container-fluid">
                         <div class="row align-items-center">
                             <!-- Logo -->
                             <div class="col-xl-2 col-lg-1 col-md-1">
                                 <div class="logo">
-                                  <a href="<?= URL ?>"><img src="views/assets/img/logo/logoGv" alt="Logo"></a>
+                                    <a href="<?= URL ?>"><img src="views/assets/img/logo/logoGv" alt="Logo"></a>
                                 </div>
                             </div>
                             <div class="col-xl-8 col-lg-8 col-md-8">
@@ -85,7 +86,7 @@
                                         </ul>
                                     </nav>
                                 </div>
-                            </div>             
+                            </div>
                             <div class="col-xl-2 col-lg-3 col-md-3">
                                 <div class="header-right-btn f-right d-none d-lg-block">
                                     <a href="#" class="btn header-btn">Contact Now</a>
@@ -97,16 +98,17 @@
                             </div>
                         </div>
                     </div>
-               </div>
+                </div>
             </div>
-       </div>
+        </div>
         <!-- Header End -->
     </header>
 
-        <!-- slider Area Start-->
-     <div class="slider-area ">
+    <!-- slider Area Start-->
+    <div class="slider-area ">
         <!-- Mobile Menu -->
-        <div class="single-slider slider-height2 d-flex align-items-center" data-background="views/assets/img/hero/Industries_hero.jpg">
+        <div class="single-slider slider-height2 d-flex align-items-center"
+            data-background="views/assets/img/hero/Industries_hero.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -126,9 +128,11 @@
             <div class="row">
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <div class="blog_left_sidebar">
+                        <?php foreach ($news as $new): ?>
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="views/assets/img/blog/single_blog_1.png" alt="">
+                                <img class="card-img rounded-0" src="views/assets/news_post/<?= $new->getImage() ?>"
+                                    height="375" with="750" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>15</h3>
                                     <p>Jan</p>
@@ -136,106 +140,17 @@
                             </div>
 
                             <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
+                                <a class="d-inline-block" href="single">
+                                    <h2><?= $new->getTitle()?></h2>
                                 </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
+                                <p><?= $new->getContent()?></p>
                                 <ul class="blog-info-link">
                                     <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                     <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                                 </ul>
                             </div>
                         </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="views/assets/img/blog/single_blog_2.png" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Jan</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
-                                </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="views/assets/img/blog/single_blog_3.png" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Jan</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
-                                </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="views/assets/img/blog/single_blog_4.png" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Jan</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
-                                </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
-                        <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="views/assets/img/blog/single_blog_5.png" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Jan</p>
-                                </a>
-                            </div>
-
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="single-blog.html">
-                                    <h2>Google inks pact for new 35-storey office</h2>
-                                </a>
-                                <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                    he earth it first without heaven in place seed it second morning saying.</p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                </ul>
-                            </div>
-                        </article>
-
+                        <?php endforeach; ?>
                         <nav class="blog-pagination justify-content-center d-flex">
                             <ul class="pagination">
                                 <li class="page-item">
@@ -446,4 +361,5 @@
     <!--================Blog Area =================-->
     <?php include("footer.php") ?>
 </body>
+
 </html>

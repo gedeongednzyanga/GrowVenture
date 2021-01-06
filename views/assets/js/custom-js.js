@@ -70,5 +70,11 @@ $(function() {
         }
     });
 
+    //Get One News
+    $("#id-new").click(function(e) {
+        e.preventDefault();
+        alert($(this).val());
+    });
+
 
 });

@@ -395,7 +395,8 @@
                             </div>
                             <div class="recent-cap">
                                 <span><?= $new->getTitle() ?></span>
-                                <h4><a href="single"><?= $new->getContent() ?></a></h4>
+                                <input type="hidden" id="idn" value="<?= $new->getIdn() ?>">
+                                <h4><a href="single" id="id-new"><?= $new->getContent() ?></a></h4>
                                 <p><?= $new->getDatepub() ?></p>
                             </div>
                         </div>

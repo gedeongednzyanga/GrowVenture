@@ -25,7 +25,8 @@
                         $this->_ctrl =new $controllerClass($url);
                     }else
                         throw new Exception('Page introuvable');
-                }else{
+                }
+                else{
                     require_once("controllers/ControllerHome.php");
                     $this->_ctrl = new ControllerHome($url);
                 }
