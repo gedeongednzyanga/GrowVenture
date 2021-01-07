@@ -70,11 +70,33 @@ $(function() {
         }
     });
 
-    //Get One News
-    $("#id-new").click(function(e) {
+    //Save comments
+    $("#form-comment").submit(function(e) {
         e.preventDefault();
-        alert($(this).val());
+        if ($("#comment").val() == "" || $("#name").val() == "" || $("#email").val() == "") {
+            $('.message-success').hide();
+            $(".message-danger").text("Complete all cases please.").show('slow');
+        } else {
+            $.ajax({
+                url: "../controllers/controllerQuery/commentaireQuery.php",
+                type: "POST",
+                data: new FormData(this),
+                contentType: false,
+                cache: false,
+                processData: false,
+                timeout: 3000,
+                success: function(data) {
+                    $('.message-success').text(data).show('slow');
+                    $('.message-danger').hide('slow');
+                },
+                error: function() {
+                    $(".message-danger").text("Echec de la requte.").show('slow');
+                }
+
+            })
+            $('.message-success').text("data").show('slow');
+            $('.message-danger').hide('slow');
+        }
+        //alert("Salut 2021");
     });
-
-
 });

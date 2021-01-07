@@ -9,6 +9,14 @@ class NewManager extends Model{
         return $this->getOne("GETONE_NEW", $id, "News");
     }
 
+    public function countComment($id){
+        $query = $this->getBdd()->prepare("CALL COUNTCOMMENT (?)");
+        $query->execute(array($id));
+        $number = $query->fetchColumn();
+        return $number;
+        $query->closeCursor();
+    }
+
     public function createObject($action, $procedure, $obj){
         try {
             $query = $this->getBdd()->prepare("CALL ".$procedure. "(?,?,?,?,?,?,?)");
