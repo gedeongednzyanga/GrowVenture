@@ -71,12 +71,7 @@
                                             <li><a href="services">Services</a></li>
                                             <li><a href="cases">Cases</a></li>
                                             <li><a href="administration">Admin</a></li>
-                                            <li><a href="blog">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog">Blog</a></li>
-                                                    <li><a href="singleblog">Blog Details</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="blog">News</a></li>
                                             <li><a href="login">Connexion</a>
                                                 <ul class="submenu">
                                                     <li><a href="login">Login</a></li>
@@ -122,7 +117,7 @@
                                     </h1>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Learn More</a>
+                                        <a href="about" class="btn hero-btn">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -130,7 +125,7 @@
                     </div>
                 </div>
                 <div class="single-slider slider-height d-flex align-items-center"
-                    data-background="views/assets/img/hero/h1_hero.jpg">
+                    data-background="views/assets/images/back_ged.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8">
@@ -140,7 +135,7 @@
                                     </h1>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn" data-animation="fadeInLeft" data-delay=".8s">
-                                        <a href="industries.html" class="btn hero-btn">Learn More</a>
+                                        <a href="about" class="btn hero-btn">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -164,7 +159,7 @@
                                 </div>
                                 <div class="profile-caption">
                                     <h4><a href="#">Business Planning</a></h4>
-                                    <p>La gestion à l’affaire dans GrowVenture et notamment le planning d’affaires,
+                                    <p>La gestion d’affaires dans GrowVenture et notamment le planning d’affaires,
                                         permet de répondre...
                                         <a href="#" class="text-danger">En savoir plus</a>
                                     </p>
@@ -193,9 +188,8 @@
                         <div class="single-profile mb-30">
                             <!-- Back -->
                             <div class="single-profile-back-last">
-                                <h2>Ce que nous faisons pour vous</h2>
-                                <p>Nous vous prêtons de l'argent pour développer votre business et agrandir votre
-                                    entreprise.</p>
+                                <h2>What we do for you</h2>
+                                <p>GrowVenture alleviates poverty by helping entrepreneurs build their businesses.</p>
                                 <a href="#">Voir plus »</a>
                             </div>
                         </div>
@@ -210,7 +204,7 @@
             <div class="container">
                 <div class="row d-flex align-items-end">
                     <div class="col-xl-7 col-lg-7">
-                        <div class="trusted-img">
+                        <div class="trusted-img">s
                             <img src="views/assets/img/team/wetrusted.jpg" alt="">
                         </div>
                     </div>
@@ -220,7 +214,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostru dolor
                                 sit amet, consectetur adipn.</p>
-                            <a href="#" class="btn trusted-btn">Learn More</a>
+                            <a href="about" class="btn trusted-btn">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -256,10 +250,10 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-services text-center mb-30">
                             <div class="services-icon">
-                                <span class="flaticon-audit"></span>
+                                <span class="flaticon-checklist-1"></span>
                             </div>
                             <div class="services-caption">
-                                <h4>Trades & stocks</h4>
+                                <h4>Business planning</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
@@ -267,7 +261,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="single-services text-center mb-30">
                             <div class="services-icon">
-                                <span class="flaticon-checklist-1"></span>
+                                <span class="flaticon-audit"></span>
                             </div>
                             <div class="services-caption">
                                 <h4>Audit & Assurance</h4>
@@ -275,6 +269,7 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!-- button -->
                 <div class="row justify-content-center">
@@ -293,23 +288,23 @@
                     <!-- slider Heading -->
                     <div class="col-xl-4 col-lg-4 col-md-8">
                         <div class="single-cases-info mb-30">
-                            <h3>Completed Cases</h3>
+                            <h3>Team GrowVenture</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore magna ali quUt enim ad minim veniam. quis nostrud
                                 exercitation ullamco laboris nierci si ut.</p>
-                            <a href="gallery.html" class="border-btn border-btn2">See more</a>
+                            <a href="cases" class="border-btn border-btn2">See more</a>
                         </div>
                     </div>
                     <!-- OwL -->
                     <div class="col-xl-8 col-lg-8 col-md-col-md-7">
                         <div class=" completed-active owl-carousel">
                             <div class="single-cases-img">
-                                <img src="views/assets/img/service/completed_case_1.png" alt="">
+                                <img src="views/assets/img/team/Gv_Gedeon.jpg" alt="">
                                 <!-- img hover caption -->
                                 <div class="single-cases-cap">
-                                    <h4><a href="case_details.html">Marketing Strategy</a></h4>
+                                    <h4><a href="case_details.html">Gédéon Nzyanga</a></h4>
                                     <p>Completely impact synergistic mindshare whereas premium services.</p>
-                                    <span>Advisory</span>
+                                    <span>Database Manager</span>
                                 </div>
                             </div>
                             <div class="single-cases-img">
