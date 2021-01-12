@@ -130,28 +130,30 @@
                     <div class="blog_left_sidebar">
                         <?php foreach ($news as $new): ?>
                         <article class="blog_item">
-                            <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="views/assets/news_post/<?= $new->getImage() ?>"
-                                    height="375" with="750" alt="">
-                                <a href="#" class="blog_item_date">
-                                    <h3>15</h3>
-                                    <p>Jan</p>
-                                </a>
-                            </div>
+                            <div class="single-item">
+                                <div class="blog_item_img">
+                                    <img class="card-img rounded-0" src="views/assets/news_post/<?= $new->getImage() ?>"
+                                        height="375" with="750" alt="">
+                                    <a href="#" class="blog_item_date">
+                                        <h3>15</h3>
+                                        <p>Jan</p>
+                                    </a>
+                                </div>
 
-                            <div class="blog_details">
-                                <a class="d-inline-block" href="single">
-                                    <h2><?= $new->getTitle()?></h2>
-                                </a>
-                                <p><?= $new->getContent()?></p>
-                                <ul class="blog-info-link">
-                                    <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                    <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                </ul>
+                                <div class="blog_details">
+                                    <a class="d-inline-block" href="single">
+                                        <h2><?= $new->getTitle()?></h2>
+                                    </a>
+                                    <p><?= $new->getContent()?></p>
+                                    <ul class="blog-info-link">
+                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
+                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </article>
                         <?php endforeach; ?>
-                        <nav class="blog-pagination justify-content-center d-flex">
+                        <!-- <nav class="blog-pagination justify-content-center d-flex">
                             <ul class="pagination">
                                 <li class="page-item">
                                     <a href="#" class="page-link" aria-label="Previous">
@@ -170,7 +172,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </nav>
+                        </nav>-->
                     </div>
                 </div>
                 <div class="col-lg-4">

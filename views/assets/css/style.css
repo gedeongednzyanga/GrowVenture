@@ -6817,3 +6817,13 @@ del {
 .switch-wrap {
     margin-bottom: 10px
 }
+
+.disabled {
+    opacity: .3;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.current {
+    background: #f3f3f3;
+}
