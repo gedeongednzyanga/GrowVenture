@@ -116,3 +116,4 @@
 })(jQuery);
 
 $(".blog_left_sidebar").pagify(6, ".blog_item");
+$(".blog").pagify(6, ".blog_item");

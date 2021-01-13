@@ -1,3 +1,8 @@
+<?php
+    //categories news
+    $categoryNewManager = new CategoryNewManager();
+    $categoriesNew = $categoryNewManager->getAllCategories();
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -19,7 +24,7 @@
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
                 <div class="preloader-img pere-text">
-                    <img src="views/assets/img/logo/logo.png" alt="">
+                    <img src="views/assets/img/logo/logoGv.png" alt="Logo">
                 </div>
             </div>
         </div>
@@ -133,46 +138,28 @@
                             <div class="single-item">
                                 <div class="blog_item_img">
                                     <img class="card-img rounded-0" src="views/assets/news_post/<?= $new->getImage() ?>"
-                                        height="375" with="750" alt="">
+                                        height="375" width="750" alt="">
                                     <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
+                                        <h3>Date</h3>
+                                        <p><?= $new->getDatepub() ?></p>
                                     </a>
                                 </div>
-
+                                <?php  $newManager = new NewManager(); ?>
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="single">
+                                    <a class="d-inline-block" href="views/single?idn=<?= $new->getIdn() ?>">
                                         <h2><?= $new->getTitle()?></h2>
                                     </a>
                                     <p><?= $new->getContent()?></p>
-                                    <ul class="blog-info-link">
+                                    <ul class=" blog-info-link">
                                         <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                        <li><a href="views/single?idn=<?= $new->getIdn() ?>"><i
+                                                    class="fa fa-comments"></i>
+                                                <?= $newManager->countComment($new->getIdn()); ?> Comments</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </article>
                         <?php endforeach; ?>
-                        <!-- <nav class="blog-pagination justify-content-center d-flex">
-                            <ul class="pagination">
-                                <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Previous">
-                                        <i class="ti-angle-left"></i>
-                                    </a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link">1</a>
-                                </li>
-                                <li class="page-item active">
-                                    <a href="#" class="page-link">2</a>
-                                </li>
-                                <li class="page-item">
-                                    <a href="#" class="page-link" aria-label="Next">
-                                        <i class="ti-angle-right"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>-->
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -197,42 +184,14 @@
                         <aside class="single_sidebar_widget post_category_widget">
                             <h4 class="widget_title">Category</h4>
                             <ul class="list cat-list">
+                                <?php foreach($categoriesNew as $categoryNew): ?>
                                 <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Resaurant food</p>
+                                    <a href="<?= $categoryNew->getIdcat(); ?>" class="d-flex">
+                                        <p><?= $categoryNew->getDesignation(); ?></p>
                                         <p>(37)</p>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Travel news</p>
-                                        <p>(10)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Modern technology</p>
-                                        <p>(03)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Product</p>
-                                        <p>(11)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Inspiration</p>
-                                        <p>21</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Health Care (21)</p>
-                                        <p>09</p>
-                                    </a>
-                                </li>
+                                <?php endforeach; ?>
                             </ul>
                         </aside>
 
@@ -304,45 +263,6 @@
                                 </li>
                             </ul>
                         </aside>
-
-
-                        <aside class="single_sidebar_widget instagram_feeds">
-                            <h4 class="widget_title">Instagram Feeds</h4>
-                            <ul class="instagram_row flex-wrap">
-                                <li>
-                                    <a href="#">
-                                        <img class="img-fluid" src="views/assets/img/post/post_5.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="img-fluid" src="views/assets/img/post/post_6.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="img-fluid" src="views/assets/img/post/post_7.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="img-fluid" src="views/assets/img/post/post_8.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="img-fluid" src="views/assets/img/post/post_9.png" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <img class="img-fluid" src="views/assets/img/post/post_10.png" alt="">
-                                    </a>
-                                </li>
-                            </ul>
-                        </aside>
-
-
                         <aside class="single_sidebar_widget newsletter_widget">
                             <h4 class="widget_title">Newsletter</h4>
 

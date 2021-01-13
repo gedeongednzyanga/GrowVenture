@@ -380,9 +380,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row blog">
                     <?php foreach($news as $new): ?>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="col-xl-4 col-lg-4 col-md-6 blog_item">
                         <div class="single-recent-cap mb-30">
                             <div class="recent-img">
                                 <img src="views/assets/news_post/<?= $new->getImage() ?>" height="241" width="362"
@@ -390,56 +390,20 @@
                             </div>
                             <div class="recent-cap">
                                 <span><?= $new->getTitle() ?></span>
-                                <h4><a href="views/single?idn=<?= $new->getIdn() ?>"><?= $new->getContent() ?></a>
+                                <h4 id="idn" style="height:55px; width:100%; overflow:hidden;  word-wrap: break-word;">
+                                    <a href="views/single?idn=<?= $new->getIdn() ?>"><?= $new->getContent() ?></a>
                                 </h4>
                                 <p><?= $new->getDatepub() ?></p>
                             </div>
                         </div>
                     </div>
                     <?php endforeach; ?>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_2.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Audit</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_3.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                        <div class="single-recent-cap mb-30">
-                            <div class="recent-img">
-                                <img src="views/assets/img/recent/rcent_1.png" alt="">
-                            </div>
-                            <div class="recent-cap">
-                                <span>Business planing</span>
-                                <h4><a href="single-blog.html">Amazing Places To Visit In Summer</a></h4>
-                                <p>Nov 30, 2020</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="row justify-content-center">
+                <!--<div class="row justify-content-center">
                     <div class="room-btn pt-50">
                         <a href="blog" class="border-btn">See More</a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
         <!-- Recent Area End-->

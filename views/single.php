@@ -3,12 +3,16 @@
         require '../models/'.$class.'.php';
     });
 
+    //News
     $newManager = new NewManager();
     $news = $newManager->getOneNew($_GET['idn']);
     $numberComment = $newManager->countComment($_GET['idn']);
-
+    //Commentaires
     $commentaireManager = new CommentaireManager();
     $comments = $commentaireManager->getOnNewComment($_GET['idn']);
+    //categories news
+    $categoryNewManager = new CategoryNewManager();
+    $categoriesNew = $categoryNewManager->getAllCategories();
 
 ?>
 <!doctype html>
@@ -153,8 +157,8 @@
                     <?php foreach($news as $new): ?>
                     <div class="single-post">
                         <div class="feature-img">
-                            <img class="img-fluid" src="assets/news_post/<?= $new->getImage(); ?>" alt="" height="375"
-                                with="750">
+                            <img class="img-fluid" src="assets/news_post/<?= $new->getImage() ?>" height="10"
+                                width="750" alt="">
                         </div>
                         <div class="blog_details">
                             <h2><?= $new->getTitle() ?> </h2>
@@ -162,35 +166,11 @@
                                 <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                                 <li><a href="#"><i class="fa fa-comments"></i> <?= $numberComment ?> Comments</a></li>
                             </ul>
-                            <p class="excert">
-                                <?=$new->getContent() ?>
-                            </p>
                             <div class="quote-wrapper">
                                 <div class="quotes">
-                                    MCSE boot camps have its supporters and its detractors. Some people do not
-                                    understand why you
-                                    should have to spend money on boot camp when you can get the MCSE study materials
-                                    yourself at
-                                    a fraction of the camp price. However, who has the willpower to actually sit through
-                                    a
-                                    self-imposed MCSE training.
+                                    <?=$new->getContent() ?>
                                 </div>
                             </div>
-                            <p>
-                                MCSE boot camps have its supporters and its detractors. Some people do not understand
-                                why you
-                                should have to spend money on boot camp when you can get the MCSE study materials
-                                yourself at a
-                                fraction of the camp price. However, who has the willpower
-                            </p>
-                            <p>
-                                MCSE boot camps have its supporters and its detractors. Some people do not understand
-                                why you
-                                should have to spend money on boot camp when you can get the MCSE study materials
-                                yourself at a
-                                fraction of the camp price. However, who has the willpower to actually sit through a
-                                self-imposed MCSE training. who has the willpower to actually
-                            </p>
                         </div>
                     </div>
                     <?php endforeach; ?>
@@ -213,14 +193,13 @@
                     </div>
                     <div class="blog-author">
                         <div class="media align-items-center">
-                            <img src="assets/img/blog/author.png" alt="">
+                            <img src="assets/images/Gv_author.png" alt="">
                             <div class="media-body">
                                 <a href="#">
-                                    <h4>Harvard milan</h4>
+                                    <h4>Grow Venture</h4>
                                 </a>
-                                <p>Second divided from form fish beast made. Every of seas all gathered use saying
-                                    you're, he
-                                    our dominion twon Second divided from</p>
+                                <p>Help people with strategies, plans, money, etc...who don't know how to grow their
+                                    business.</p>
                             </div>
                         </div>
                     </div>
@@ -344,42 +323,14 @@
                         <aside class="single_sidebar_widget post_category_widget">
                             <h4 class="widget_title">Category</h4>
                             <ul class="list cat-list">
+                                <?php foreach($categoriesNew as $categoryNew): ?>
                                 <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Resaurant food</p>
+                                    <a href="<?= $categoryNew->getIdcat(); ?>" class="d-flex">
+                                        <p><?= $categoryNew->getDesignation(); ?></p>
                                         <p>(37)</p>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Travel news</p>
-                                        <p>(10)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Modern technology</p>
-                                        <p>(03)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Product</p>
-                                        <p>(11)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Inspiration</p>
-                                        <p>(21)</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="d-flex">
-                                        <p>Health Care</p>
-                                        <p>(21)</p>
-                                    </a>
-                                </li>
+                                <?php endforeach; ?>
                             </ul>
                         </aside>
                         <aside class="single_sidebar_widget popular_post_widget">

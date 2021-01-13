@@ -3,7 +3,7 @@
         private static $bdd;
 
         private static function setBdd(){
-            self::$bdd = new PDO('mysql:host=localhost; dbname=growventure_bd; charset=utf8', 'root', '');
+            self::$bdd = new PDO('mysql:host=localhost; dbname=growventure_bd; charset=utf8', 'root', 'go for it just do it');
             self::$bdd -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
         }
 
