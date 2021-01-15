@@ -240,12 +240,12 @@
                                 </div>
                             </div>
                             <div class="single-cases-img">
-                                <img src="views/assets/img/service/completed_case_2.png" alt="">
+                                <img src="views/assets/img/team/Gv_Alexis.jpg" alt="">
                                 <!-- img hover caption -->
                                 <div class="single-cases-cap">
-                                    <h4><a href="case_details.html">Marketing Strategy</a></h4>
+                                    <h4><a href="case_details.html">Alexis Buesha</a></h4>
                                     <p>Completely impact synergistic mindshare whereas premium services.</p>
-                                    <span>Advisory</span>
+                                    <span>Manager</span>
                                 </div>
                             </div>
                         </div>

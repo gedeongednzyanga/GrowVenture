@@ -1,4 +1,5 @@
 <?php
+    include('views/cal_time.php');
     //categories news
     $categoryNewManager = new CategoryNewManager();
     $categoriesNew = $categoryNewManager->getAllCategories();
@@ -114,9 +115,10 @@
                             <ul class="list cat-list">
                                 <?php foreach($categoriesNew as $categoryNew): ?>
                                 <li>
-                                    <a href="<?= $categoryNew->getIdcat(); ?>" class="d-flex">
-                                        <p><?= $categoryNew->getDesignation(); ?></p>
-                                        <p>(37)</p>
+                                    <a href="<?= $categoryNew->getIdcat() ?>" class="d-flex">
+                                        <p><?= $categoryNew->getDesignation() ?></p>
+                                        <p class="badge"> <?= $categoryNewManager->countNew($categoryNew->getIdcat()) ?>
+                                        </p>
                                     </a>
                                 </li>
                                 <?php endforeach; ?>
@@ -125,42 +127,18 @@
 
                         <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Recent Post</h3>
+                            <?php 
+                            foreach($newManager->recentNews("news") as $recentNew): ?>
                             <div class="media post_item">
                                 <img src="views/assets/img/post/post_1.png" alt="post">
                                 <div class="media-body">
-                                    <a href="single-blog.html">
-                                        <h3>From life was you fish...</h3>
+                                    <a href="views/single?idn=<?= $recentNew->getIdn() ?>">
+                                        <h3><?= $recentNew->getTitle() ?></h3>
                                     </a>
-                                    <p>January 12, 2019</p>
+                                    <p><?= cal_time_ago($recentNew->getDatepub()) ?></p>
                                 </div>
                             </div>
-                            <div class="media post_item">
-                                <img src="views/assets/img/post/post_2.png" alt="post">
-                                <div class="media-body">
-                                    <a href="single-blog.html">
-                                        <h3>The Amazing Hubble</h3>
-                                    </a>
-                                    <p>02 Hours ago</p>
-                                </div>
-                            </div>
-                            <div class="media post_item">
-                                <img src="views/assets/img/post/post_3.png" alt="post">
-                                <div class="media-body">
-                                    <a href="single-blog.html">
-                                        <h3>Astronomy Or Astrology</h3>
-                                    </a>
-                                    <p>03 Hours ago</p>
-                                </div>
-                            </div>
-                            <div class="media post_item">
-                                <img src="views/assets/img/post/post_4.png" alt="post">
-                                <div class="media-body">
-                                    <a href="single-blog.html">
-                                        <h3>Asteroids telescope</h3>
-                                    </a>
-                                    <p>01 Hours ago</p>
-                                </div>
-                            </div>
+                            <?php endforeach; ?>
                         </aside>
                         <aside class="single_sidebar_widget tag_cloud_widget">
                             <h4 class="widget_title">Tag Clouds</h4>

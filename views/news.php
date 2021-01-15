@@ -1,3 +1,11 @@
+<?php 
+    spl_autoload_register(function($class){
+        require '../models/'.$class.'.php';
+    });
+    $categoryNewManager = new CategoryNewManager();
+    $categoriesNew = $categoryNewManager->getAllCategories();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -10,6 +18,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="views/assets/css/fontawesome-all.min.css" />
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="views/assets/admin/select2/css/select2.min.css">
+    <link rel="stylesheet" href="views/assets/admin/select2-bootstrap4-theme/select2-bootstrap4.min.css">
     <link rel="stylesheet" href="views/assets/admin/dist/css/adminlte.min.css" />
     <link rel="stylesheet" href="views/assets/admin/summernote/summernote-bs4.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet" />
@@ -826,9 +836,8 @@
                             <!-- Widget: user widget style 1 -->
                             <div class="card card-widget widget-user">
                                 <!-- Add the bg color to the header using any of the bg-* classes -->
-                                <div class="widget-user-header text-white" style="
-                      background: url('views/assets/admin/dist/img/photo1.png') center center;
-                    ">
+                                <div class="widget-user-header text-white"
+                                    style="background: url('views/assets/admin/dist/img/photo1.png') center center;">
                                     <h3 class="widget-user-username text-right">
                                         Elizabeth Pierce
                                     </h3>
@@ -898,9 +907,18 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input type="text" name="refcatnew" value="1" id="title"
+                                                        <select name="refcatnew" class="form-control select2"
+                                                            style="width: 100%;">
+                                                            <option value="Category" selected="selected">New Category
+                                                            </option>
+                                                            <?php foreach( $categoriesNew as $category): ?>
+                                                            <option value="<?= $category->getIdcat() ?>">
+                                                                <?= $category->getDesignation() ?></option>
+                                                            <?php endforeach; ?>
+                                                        </select>
+                                                        <!-- <input type="text"  value="1" id="title"
                                                             placeholder="Ref. cat Ex : First GrowVenture Hosting"
-                                                            class="form-control">
+                                                            class="form-control">-->
                                                         <input type="hidden" name="refuser" value="1" />
                                                         <input type="hidden" name="id" value="0" />
                                                         <input type="hidden" name="action" value="create">
@@ -1350,15 +1368,24 @@
     <script src="views/assets/admin/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
     <script src="views/assets/admin/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="views/assets/admin/select2/js/select2.full.min.js"></script>
+
     <!-- AdminLTE App -->
     <script src="views/assets/admin/dist/js/adminlte.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="views/assets/admin/dist/js/demo.js"></script>
     <script src="views/assets/admin/summernote/summernote-bs4.min.js"></script>
+
     <script>
     $(function() {
-        // Summernote
-        $('.textarea').summernote()
+        //Initialize Select2 Elements
+        $('.select2').select2();
+
+        //Initialize Select2 Elements
+        $('.select2bs4').select2({
+            theme: 'bootstrap4'
+        });
+
     })
     </script>
     <script src="views/assets/js/custom-js.js"></script>

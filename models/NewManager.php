@@ -10,11 +10,30 @@ class NewManager extends Model{
     }
 
     public function countComment($id){
-        $query = $this->getBdd()->prepare("CALL COUNTCOMMENT (?)");
-        $query->execute(array($id));
-        $number = $query->fetchColumn();
-        return $number;
-        $query->closeCursor();
+       try {
+            $query = $this->getBdd()->prepare("CALL COUNTCOMMENT (?)");
+            $query->execute(array($id));
+            $number = $query->fetchColumn();
+            return $number;
+            $query->closeCursor();
+       } catch (PDOException $ex) {
+           echo  $ex->getMessage();
+       }
+    }
+
+    public function recentNews($obj){
+        try {
+            $var =[];
+            $query= $this->getBdd()->prepare("CALL RECENT_NEW()");
+            $query->execute();
+            while ($data = $query->fetch(PDO::FETCH_ASSOC)) {
+                $var[] = new $obj($data);
+            }
+            return $var;
+            $query->closeCursor();
+        } catch (PDOException $ex) {
+            echo  $ex->getMessage();
+        }
     }
 
     public function createObject($action, $procedure, $obj){
